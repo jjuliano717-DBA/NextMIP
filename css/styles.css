@@ -1,0 +1,37 @@
+/* Custom Fonts */
+
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Background Patterns */
+.bg-grid-pattern {
+    background-image: radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+    background-size: 40px 40px;
+}
+
+/* Form Elements */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #06b6d4;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.6);
+    border: 2px solid white;
+}
+
+/* Animations & Interactions */
+#mobile-overlay.active {
+    transform: translateX(0);
+}
+
+.calculator-container {
+    min-height: 200px;
+}
+
+.industry-card:hover .industry-icon {
+    transform: scale(1.1) rotate(5deg);
+}

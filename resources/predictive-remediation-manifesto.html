@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Predictive Remediation Manifesto | Next MIP</title>
+    <meta name="description"
+        content="The Predictive Remediation Manifesto: Moving beyond the legacy NOC to autonomous, predictive IT resilience.">
+    <link rel="canonical" href="https://nextmip.com/resources/predictive-remediation-manifesto">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="The Predictive Remediation Manifesto | Next MIP">
+    <meta property="og:description"
+        content="The Predictive Remediation Manifesto: Moving beyond the legacy NOC to autonomous, predictive IT resilience.">
+    <meta property="og:image" content="https://nextmip.com/images/article-hero.jpg">
+    <meta property="og:url" content="https://nextmip.com/resources/predictive-remediation-manifesto">
+    <meta property="og:type" content="article">
+
+    <!-- Schema.org Article Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "The Predictive Remediation Manifesto",
+      "image": [
+        "https://nextmip.com/images/article-hero.jpg"
+      ],
+      "datePublished": "2024-03-20T08:00:00+08:00",
+      "author": [{
+          "@type": "Organization",
+          "name": "Next MIP Research Team",
+          "url": "https://nextmip.com"
+      }],
+      "publisher": {
+          "@type": "Organization",
+          "name": "Next MIP",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://nextmip.com/logo.png"
+          }
+      },
+      "description": "The Predictive Remediation Manifesto: Moving beyond the legacy NOC to autonomous, predictive IT resilience."
+    }
+    </script>
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2306b6d4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2L3 7V17L12 22L21 17V7L12 2Z'/%3E%3Cpath d='M12 22V12'/%3E%3Cpath d='M21 7L12 12L3 7'/%3E%3Ccircle cx='12' cy='12' r='2' fill='%2306b6d4'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="../css/output.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+</head>
+
+<body class="bg-slate-950 text-slate-100 selection:bg-cyan-500/30 overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-[100] bg-slate-950/90 backdrop-blur-md border-b border-white/5" role="navigation">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="../index.html" class="flex items-center gap-3" aria-label="Next MIP Home">
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-cyan-500 rounded-lg blur opacity-20 transition duration-1000">
+                    </div>
+                    <div
+                        class="relative w-10 h-10 bg-slate-900 border border-white/10 rounded-lg flex items-center justify-center">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <circle cx="12" cy="12" r="2" fill="#06b6d4" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <span
+                        class="text-xl font-extrabold tracking-tighter uppercase leading-none text-white font-black">Next
+                        <span class="text-cyan-400">MIP</span></span>
+                    <span class="text-[8px] font-black text-white tracking-[0.2em] uppercase mt-1">Intelligence &
+                        Resilience IT Solutions</span>
+                </div>
+            </a>
+            <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="../index.html#industries"
+                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Industries</a>
+                <a href="../index.html#outcomes"
+                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Outcomes</a>
+                <a href="../index.html#insights"
+                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Insights</a>
+                <a href="../index.html#contact"
+                    class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-6 py-2 rounded-full font-bold transition-all shadow-lg shadow-cyan-500/20 uppercase font-black text-[11px] tracking-widest">Audit
+                    Request</a>
+            </div>
+            <button class="lg:hidden p-2 text-slate-400 hover:text-white transition-colors" id="mobile-menu-btn"
+                aria-label="Open Menu">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-overlay"
+        class="fixed inset-0 z-[101] bg-slate-950/98 backdrop-blur-lg transform translate-x-full transition-transform duration-300 lg:hidden flex flex-col p-8">
+        <div class="flex items-center justify-between mb-12">
+            <div class="flex items-center gap-3 text-white">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2" />
+                    <circle cx="12" cy="12" r="2" fill="#06b6d4" />
+                </svg>
+                <span class="text-lg font-extrabold uppercase">Next <span class="text-cyan-400">MIP</span></span>
+            </div>
+            <button id="mobile-close-btn" class="p-2 text-slate-400"><i data-lucide="x"></i></button>
+        </div>
+        <nav class="flex flex-col gap-6 text-center">
+            <a href="../index.html#industries"
+                class="mobile-nav-link text-2xl font-bold uppercase tracking-widest text-slate-300">Industries</a>
+            <a href="../index.html#insights"
+                class="mobile-nav-link text-2xl font-bold uppercase tracking-widest text-slate-300">Insights</a>
+            <a href="../index.html#contact"
+                class="mobile-nav-link bg-cyan-500 text-slate-950 py-4 rounded-xl font-black uppercase tracking-widest">Audit
+                Request</a>
+        </nav>
+    </div>
+
+    <!-- Article Content -->
+    <main class="pt-40 pb-24 px-6">
+        <article class="max-w-4xl mx-auto relative">
+
+            <!-- Article Header -->
+            <header class="mb-12 text-center">
+                <div
+                    class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-bold uppercase tracking-widest mb-6">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> White Paper
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                    The Predictive Remediation Manifesto
+                </h1>
+                <div class="flex items-center justify-center gap-4 text-sm text-slate-400 font-medium italic">
+                    <span>March 20, 2024</span>
+                    <span class="w-1 h-1 bg-slate-600 rounded-full"></span>
+                    <span>12 Min Read</span>
+                </div>
+            </header>
+
+            <!-- Table of Contents Sidebar -->
+            <aside class="hidden xl:block absolute -left-64 top-0 w-48 text-sm">
+                <div class="sticky top-32">
+                    <h4 class="font-bold text-white mb-4 uppercase tracking-widest text-[10px]">Architecture</h4>
+                    <ul class="space-y-3 text-slate-500 border-l border-white/10">
+                        <li><a href="#legacy-noc"
+                                class="block pl-4 hover:text-cyan-400 border-l border-transparent hover:border-cyan-400 transition-all">Legacy
+                                NOC Death</a></li>
+                        <li><a href="#definition"
+                                class="block pl-4 hover:text-cyan-400 border-l border-transparent hover:border-cyan-400 transition-all">Defining
+                                Predictive</a></li>
+                        <li><a href="#autonomous-agents"
+                                class="block pl-4 hover:text-cyan-400 border-l border-transparent hover:border-cyan-400 transition-all">Autonomous
+                                Agents</a></li>
+                        <li><a href="#blueprint"
+                                class="block pl-4 hover:text-cyan-400 border-l border-transparent hover:border-cyan-400 transition-all">Implementation</a>
+                        </li>
+                        <li><a href="#faq"
+                                class="block pl-4 hover:text-cyan-400 border-l border-transparent hover:border-cyan-400 transition-all">Technical
+                                FAQ</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Content Area -->
+            <div class="prose prose-invert prose-lg prose-cyan max-w-none text-slate-300 leading-relaxed mx-auto">
+
+                <p class="lead text-xl text-slate-400 font-light mb-10">
+                    The traditional Network Operations Center (NOC) is a bottleneck. In an era of micro-latency and
+                    distributed systems, human response times are the primary obstacle to achieving 100% availability.
+                </p>
+
+                <h2 id="legacy-noc">I. The Death of the Reactive NOC</h2>
+                <p>Reactive support models ensure downtime. When a human technician waits for a red light to trigger a
+                    ticket, the failure is already impacting business continuity.</p>
+                <ul>
+                    <li><strong>The Latency Gap:</strong> MTTR is no longer sufficient; by the time a human reacts, the
+                        system has already degraded beyond immediate recovery.</li>
+                    <li><strong>Alert Fatigue:</strong> The cognitive limit of human monitoring creates "noise" that
+                        masks critical early-warning signals.</li>
+                    <li><strong>Static Logic Failure:</strong> Traditional rule-based alerts cannot scale to the dynamic
+                        nature of modern cloud environments.</li>
+                </ul>
+
+                <h2 id="definition">II. Defining Predictive Remediation</h2>
+                <p>Predictive Remediation is the methodology of <strong>anticipating and acting</strong> before a
+                    failure state is reached. This is achieved via three pillars:</p>
+                <ol>
+                    <li><strong>Observability Ingestion:</strong> Analyzing high-cardinality data at the edge to
+                        identify micro-anomalies.</li>
+                    <li><strong>Autonomous Inference:</strong> Using LLM and ML models to correlate telemetry across
+                        siloed systems (Network, Compute, Storage).</li>
+                    <li><strong>Closed-Loop Execution:</strong> Granting agents the authority to modify infrastructure
+                        via API (Terraform/Ansible) without human delay.</li>
+                </ol>
+
+                <h2 id="autonomous-agents">III. The Shift to Autonomous Agents</h2>
+                <p>Next MIP replaces "Eye on Glass" with "Code on Infrastructure." Our autonomous agents operate within
+                    agentic workflows that understand intent, not just commands.</p>
+                <blockquote>
+                    "The goal isn't faster tickets. The goal is no tickets. A perfect system remediates itself
+                    silently."
+                </blockquote>
+
+                <h2 id="blueprint">IV. Implementation Blueprint</h2>
+                <p>The Next MIP standard for achieving zero-downtime resilience follows a strict architectural path:</p>
+                <ul>
+                    <li><strong>Data Normalization:</strong> Telemetry is translated into a uniform format for AI
+                        ingestion.</li>
+                    <li><strong>Guardrail Policy-as-Code:</strong> Agents operate within cryptographic boundaries to
+                        prevent runaway automated changes.</li>
+                    <li><strong>The Outcome:</strong> Transitioning the NOC from a reactive cost center to a proactive
+                        reliability engine.</li>
+                </ul>
+
+                <hr class="border-white/5 my-12" />
+
+                <!-- FAQ Section -->
+                <h2 id="faq">Technical FAQ</h2>
+                <div class="space-y-6 not-prose">
+                    <div class="p-6 bg-slate-900 border border-white/5 rounded-xl">
+                        <h4 class="text-white font-bold mb-2">What is the difference between AIOps and Predictive
+                            Remediation?</h4>
+                        <p class="text-slate-400 text-sm">AIOps focuses on visibility and noise reduction; Predictive
+                            Remediation focuses on <strong>action</strong>—taking the next step to fix the problem
+                            autonomously before it impacts the user.</p>
+                    </div>
+                    <div class="p-6 bg-slate-900 border border-white/5 rounded-xl">
+                        <h4 class="text-white font-bold mb-2">How do you handle "Black Swan" events?</h4>
+                        <p class="text-slate-400 text-sm">Autonomous agents utilize "Chain-of-Thought" reasoning to
+                            identify patterns they haven't seen before, defaulting to safe-state configurations while
+                            alerting senior engineers with a pre-analyzed diagnostic package.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA (Hidden in Print) -->
+            <div
+                class="mt-20 p-10 rounded-3xl bg-gradient-to-br from-slate-900 to-slate-950 border border-cyan-500/20 text-center relative overflow-hidden no-print">
+                <div class="absolute -top-24 -right-24 w-64 h-64 bg-cyan-500/10 blur-3xl rounded-full"></div>
+                <h3 class="text-2xl font-bold text-white mb-4 uppercase tracking-tight">Achieve Absolute Resilience</h3>
+                <p class="text-slate-400 mb-8 max-w-md mx-auto">Download the full technical white paper or request a
+                    Predictive Readiness Audit today.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#contact"
+                        class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-xl font-bold transition-all shadow-lg shadow-cyan-500/20 uppercase tracking-widest text-xs">
+                        Audit Request <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                    <button onclick="window.print()"
+                        class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/5 hover:bg-white/10 text-white border border-white/10 rounded-xl font-bold transition-all uppercase tracking-widest text-xs">
+                        Download PDF
+                    </button>
+                </div>
+            </div>
+
+            <!-- Share & Cite -->
+            <div class="mt-12 pt-12 border-t border-white/10">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-widest mb-4">Share Intelligence</h4>
+                        <div class="flex gap-4">
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://nextmip.com/resources/predictive-remediation-manifesto"
+                                target="_blank"
+                                class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all">
+                                <i data-lucide="linkedin" class="w-5 h-5"></i>
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?text=The Predictive Remediation Manifesto&url=https://nextmip.com/resources/predictive-remediation-manifesto"
+                                target="_blank"
+                                class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all">
+                                <i data-lucide="twitter" class="w-5 h-5"></i>
+                            </a>
+                            <a href="mailto:?subject=Predictive Remediation Manifesto&body=Read this manifesto: https://nextmip.com/resources/predictive-remediation-manifesto"
+                                class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all">
+                                <i data-lucide="mail" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-widest mb-4">Cite this Report</h4>
+                        <div class="relative group">
+                            <div
+                                class="bg-slate-900 border border-white/10 rounded-lg p-4 text-xs font-mono text-slate-400 flex justify-between items-center">
+                                <span id="citation-text">Next MIP. (2026). The Predictive Remediation Manifesto.
+                                    Retrieved from https://nextmip.com/resources/predictive-remediation-manifesto</span>
+                                <button
+                                    onclick="navigator.clipboard.writeText(document.getElementById('citation-text').innerText); this.innerHTML = '<i data-lucide=\'check\' class=\'w-4 h-4 text-green-400\'></i>'; setTimeout(() => this.innerHTML = '<i data-lucide=\'copy\' class=\'w-4 h-4\'></i>', 2000);"
+                                    class="text-cyan-400 hover:text-white transition-colors">
+                                    <i data-lucide="copy" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-20 px-6 bg-slate-950 border-t border-white/5 text-white">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            <!-- Column 1: Brand -->
+            <div>
+                <div class="flex items-center gap-3 mb-8">
+                    <div
+                        class="relative w-10 h-10 bg-slate-900 border border-white/10 rounded-lg flex items-center justify-center text-white">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2" />
+                            <circle cx="12" cy="12" r="2" fill="#06b6d4" />
+                        </svg>
+                    </div>
+                    <div class="flex flex-col"><span
+                            class="text-xl font-black tracking-tighter uppercase leading-none">Next <span
+                                class="text-cyan-400">MIP</span></span><span
+                            class="text-[8px] font-black tracking-[0.2em] uppercase mt-1">Intelligence.
+                            Resilience.</span></div>
+                </div>
+                <p class="text-slate-500 text-sm leading-relaxed italic mb-6">Managed Intelligence Provider specializing
+                    in
+                    autonomous resilience for critical infrastructure.</p>
+                <div class="flex gap-4">
+                    <a href="#"
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
+                            data-lucide="facebook" class="w-5 h-5"></i></a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
+                            data-lucide="linkedin" class="w-5 h-5"></i></a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
+                            data-lucide="twitter" class="w-5 h-5"></i></a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
+                            data-lucide="youtube" class="w-5 h-5"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Offices -->
+            <div>
+                <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">Office Locations</h4>
+                <div class="space-y-6">
+                    <div>
+                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">Palm Beach Office</h5>
+                        <address class="not-italic text-slate-400 text-sm leading-relaxed">
+                            4521 PGA BLVD, Suite #506<br>
+                            Palm Beach Gardens, FL 33418
+                        </address>
+                    </div>
+                    <div>
+                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">Atlanta Office</h5>
+                        <address class="not-italic text-slate-400 text-sm leading-relaxed">
+                            1700 Northside Drive NW<br>
+                            Suite A7, PMB 511<br>
+                            Atlanta, GA 30318
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 3: Services -->
+            <div>
+                <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">AI Services</h4>
+                <ul class="space-y-4 text-xs text-slate-400">
+                    <li class="relative group">
+                        <span
+                            class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">Cybersecurity
+                            with AI / Managed Security</span>
+                        <div
+                            class="absolute bottom-full mb-2 -left-12 w-72 p-4 bg-slate-900 border border-cyan-500/30 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 text-xs text-slate-300 pointer-events-none">
+                            <div class="font-bold text-white mb-2 uppercase tracking-widest">Managed Security</div>
+                            The #1 priority and fastest-growing area — includes threat detection & response (MDR),
+                            endpoint protection, firewall management, email security, MFA, vulnerability scanning,
+                            security awareness training, and zero-trust implementation.
+                        </div>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">AI
+                            Enabled Help Desk</span>
+                        <div
+                            class="absolute bottom-full mb-2 -left-12 w-72 p-4 bg-slate-900 border border-cyan-500/30 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 text-xs text-slate-300 pointer-events-none">
+                            <div class="font-bold text-white mb-2 uppercase tracking-widest">End-User Support</div>
+                            24/7 remote and on-site support, ticket resolution, desktop/laptop management, software
+                            support, and user onboarding/offboarding.
+                        </div>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">AI
+                            Integration & Optimization</span>
+                        <div
+                            class="absolute bottom-full mb-2 -left-12 w-72 p-4 bg-slate-900 border border-cyan-500/30 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 text-xs text-slate-300 pointer-events-none">
+                            <div class="font-bold text-white mb-2 uppercase tracking-widest">Enterprise AI Tools</div>
+                            Custom integration of enterprise AI tools (e.g., copilots, LLMs, automation platforms),
+                            ongoing tuning, governance, data privacy, and ROI tracking.
+                        </div>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">Predictive
+                            Intelligence & AIOps</span>
+                        <div
+                            class="absolute bottom-full mb-2 -left-12 w-72 p-4 bg-slate-900 border border-cyan-500/30 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 text-xs text-slate-300 pointer-events-none">
+                            <div class="font-bold text-white mb-2 uppercase tracking-widest">AIOps Monitoring</div>
+                            AI-powered predictive monitoring that prevents issues before they occur, root-cause
+                            analysis, and self-healing systems.
+                        </div>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">Intelligent
+                            Automation</span>
+                        <div
+                            class="absolute bottom-full mb-2 -left-12 w-72 p-4 bg-slate-900 border border-cyan-500/30 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 text-xs text-slate-300 pointer-events-none">
+                            <div class="font-bold text-white mb-2 uppercase tracking-widest">Workflow Orchestration
+                            </div>
+                            Automating end-to-end business processes (not just IT) — e.g., HR onboarding, finance
+                            approvals, sales follow-ups, supply chain coordination — using AI to reduce manual work by
+                            40–70%.
+                        </div>
+                    </li>
+                    <li class="relative group">
+                        <span
+                            class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">Agentic
+                            AI Deployment</span>
+                        <div
+                            class="absolute bottom-full mb-2 -left-12 w-72 p-4 bg-slate-900 border border-cyan-500/30 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 text-xs text-slate-300 pointer-events-none">
+                            <div class="font-bold text-white mb-2 uppercase tracking-widest">Autonomous Agents</div>
+                            Designing, deploying, and governing autonomous AI agents that handle tasks like data
+                            analysis, decision support, ticket triage, customer interactions, and process orchestration.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Legal & Map -->
+            <div>
+                <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">Company</h4>
+                <ul class="space-y-3 text-sm text-slate-400 mb-8">
+                    <li><a href="../sitemap.html" class="hover:text-cyan-400 transition-colors">Site Map</a></li>
+                    <li><a href="../terms.html" class="hover:text-cyan-400 transition-colors">Terms of Use</a></li>
+                    <li><a href="../privacy.html" class="hover:text-cyan-400 transition-colors">Privacy Policy</a></li>
+                </ul>
+                <div class="p-4 rounded-xl bg-slate-900 border border-white/5">
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mb-2">Status</p>
+                    <div class="flex items-center gap-2 text-xs font-bold text-green-400">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                        </span>
+                        All Systems Operational
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-widest text-slate-600">
+            <div>© 2024 NEXT MIP. PROTECTED ASSETS.</div>
+            <div>American Managed IT Services • NIST • CMMC</div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileOverlay = document.getElementById('mobile-overlay');
+        function toggleMenu() { mobileOverlay.classList.toggle('translate-x-full'); document.body.classList.toggle('overflow-hidden'); }
+        mobileBtn.addEventListener('click', toggleMenu);
+        document.getElementById('mobile-close-btn').addEventListener('click', toggleMenu);
+    </script>
+</body>
+
+</html>

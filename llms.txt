@@ -1,0 +1,20 @@
+# Next MIP - Managed Intelligence Provider
+
+## Company Overview
+Next MIP (Managed Intelligence Provider) is an Autonomous MSP specializing in AI governance, CMMC/NIST compliance, and predictive IT remediation.
+
+## Core Missions
+1. **Predictive Remediation**: Replacing reactive "break/fix" support with autonomous, self-healing infrastructure agents.
+2. **AI Governance**: Securing enterprise environments against "Shadow AI" data leaks while enabling safe adoption.
+3. **Compliance**: Streamlining CMMC 2.0 and NIST 800-171 compliance for Federal and SLED contractors.
+
+## Key Terminology
+- **Autonomous MSP**: An IT provider that uses AI agents to resolve issues before user impact.
+- **Shadow AI Revenue Leak**: The financial risk of unmanaged AI usage in legal and finance departments.
+- **Intelligence & Resilience**: The dual focus of modern IT infrastructure.
+
+## Link Structure
+- Home: https://nextmip.com
+- Services: https://nextmip.com/services/predictive-remediation/
+- Compliance: https://nextmip.com/compliance/cmmc-2-0/
+- Insights: https://nextmip.com/#insights
