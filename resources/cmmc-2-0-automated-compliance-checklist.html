@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WDN2287H4D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WDN2287H4D');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMMC 2.0 Automated Compliance Checklist: 7-Step Guide | Next MIP</title>
+    <meta name="description"
+        content="A step-by-step CMMC 2.0 automated compliance checklist for defense contractors. Covers all 110 NIST 800-171 controls, SSP documentation, POA&M creation, and continuous compliance monitoring.">
+    <link rel="canonical" href="https://nextmip.com/resources/cmmc-2-0-automated-compliance-checklist.html">
+
+    <!-- Article + HowTo Schema — E-E-A-T Deep Funnel -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "CMMC 2.0 Automated Compliance Checklist: The 7-Step Guide for Defense Contractors",
+      "description": "A complete, step-by-step CMMC 2.0 automated compliance checklist covering all 110 NIST 800-171 controls, SSP documentation, POA&M, and continuous monitoring for DoD contractors.",
+      "author": { "@type": "Organization", "name": "Next MIP", "url": "https://nextmip.com" },
+      "publisher": { "@type": "Organization", "name": "Next MIP", "logo": { "@type": "ImageObject", "url": "https://nextmip.com/logo.png" } },
+      "datePublished": "2026-02-20",
+      "dateModified": "2026-02-20",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://nextmip.com/resources/cmmc-2-0-automated-compliance-checklist.html" },
+      "keywords": ["CMMC 2.0 automated compliance", "NIST 800-171 checklist", "CMMC compliance checklist", "DoD contractor compliance", "CUI protection"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "CMMC 2.0 Automated Compliance: 7-Step Checklist",
+      "description": "A 7-step process for achieving and maintaining CMMC 2.0 compliance through automation.",
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Scope Your CUI Environment", "text": "Identify every system, network segment, and third-party connection that processes, stores, or transmits Controlled Unclassified Information (CUI). This defines your CMMC assessment boundary." },
+        { "@type": "HowToStep", "position": 2, "name": "Run a NIST 800-171 Gap Assessment", "text": "Evaluate your current controls against all 110 NIST 800-171 requirements. Score each from 0 (not implemented) to 1 (fully implemented). This gives you your baseline SPRS score." },
+        { "@type": "HowToStep", "position": 3, "name": "Create Your System Security Plan (SSP)", "text": "Document how your organization meets each of the 110 controls. Include system boundaries, responsible personnel, and implementation status. The SSP is a required artifact for CMMC Level 2." },
+        { "@type": "HowToStep", "position": 4, "name": "Build Your Plan of Action & Milestones (POA&M)", "text": "For every control not yet fully implemented, document the remediation plan, responsible owner, resources required, and target completion date." },
+        { "@type": "HowToStep", "position": 5, "name": "Automate Control Monitoring", "text": "Deploy continuous compliance monitoring tools that track control status in real time, alert on drift, and automatically maintain audit evidence." },
+        { "@type": "HowToStep", "position": 6, "name": "Conduct a Pre-Assessment", "text": "Perform an internal mock C3PAO assessment against the CMMC Level 2 practices. Identify and remediate any remaining gaps before the official third-party assessment." },
+        { "@type": "HowToStep", "position": 7, "name": "Engage a C3PAO for Certification", "text": "Select a DoD-authorized C3PAO (Certified Third-Party Assessment Organization) and schedule your formal CMMC Level 2 assessment. Provide access to your SSP, POA&M, and audit evidence packages." }
+      ]
+    }
+    </script>
+
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "CMMC 2.0 Automated Compliance Checklist | Next MIP",
+      "url": "https://nextmip.com/resources/cmmc-2-0-automated-compliance-checklist.html",
+      "isPartOf": { "@type": "WebSite", "name": "Next MIP", "url": "https://nextmip.com" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nextmip.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://nextmip.com/resources/" },
+          { "@type": "ListItem", "position": 3, "name": "CMMC 2.0 Automated Compliance Checklist", "item": "https://nextmip.com/resources/cmmc-2-0-automated-compliance-checklist.html" }
+        ]
+      },
+      "inLanguage": "en-US",
+      "dateModified": "2026-02-20"
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="../css/output.css">
+    <script defer src="https://unpkg.com/lucide@latest" onload="lucide.createIcons()"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+            rel="stylesheet">
+    </noscript>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <style>
+        body {
+            background: #020617;
+            color: #e2e8f0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .article-hero {
+            background: linear-gradient(135deg, #0f172a 0%, #0c1a2e 50%, #071424 100%);
+            border-bottom: 1px solid rgba(6, 182, 212, 0.15);
+            padding: 120px 0 60px;
+        }
+
+        .prose-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .prose h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #f1f5f9;
+            margin: 2.5rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .prose h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #cbd5e1;
+            margin: 1.75rem 0 0.75rem;
+        }
+
+        .prose p {
+            color: #94a3b8;
+            line-height: 1.8;
+            margin-bottom: 1.25rem;
+        }
+
+        .prose strong {
+            color: #e2e8f0;
+        }
+
+        .prose ul,
+        .prose ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .prose li {
+            color: #94a3b8;
+            line-height: 1.8;
+            margin-bottom: 0.4rem;
+        }
+
+        .definition-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .definition-table th {
+            background: rgba(6, 182, 212, 0.1);
+            color: #06b6d4;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        .definition-table td {
+            padding: 12px 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .step-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-left: 3px solid #06b6d4;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+        }
+
+        .step-card .step-num {
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #06b6d4;
+            margin-bottom: 6px;
+        }
+
+        .step-card h3 {
+            margin: 0 0 8px;
+            font-size: 1rem;
+            color: #f1f5f9;
+        }
+
+        .step-card p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .checklist-item {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .checklist-item:last-child {
+            border-bottom: none;
+        }
+
+        .checklist-box {
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(6, 182, 212, 0.4);
+            border-radius: 4px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .checklist-box.done {
+            background: rgba(6, 182, 212, 0.1);
+            border-color: #06b6d4;
+            position: relative;
+        }
+
+        .checklist-box.done::after {
+            content: '✓';
+            color: #06b6d4;
+            font-size: 12px;
+            font-weight: 900;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .domain-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+        }
+
+        .domain-card h3 {
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #06b6d4;
+            margin: 0 0 4px;
+        }
+
+        .domain-card p {
+            margin: 0;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        .domain-count {
+            display: inline-block;
+            background: rgba(6, 182, 212, 0.1);
+            color: #06b6d4;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 100px;
+            margin-left: 8px;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, rgba(249, 115, 22, 0.1), rgba(234, 88, 12, 0.05));
+            border: 1px solid rgba(249, 115, 22, 0.2);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .cta-box h3 {
+            color: #f1f5f9;
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .cta-box p {
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #f97316;
+            color: white;
+            font-weight: 900;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 12px 28px;
+            border-radius: 100px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .cta-btn:hover {
+            background: #fb923c;
+        }
+
+        .tag {
+            display: inline-block;
+            background: rgba(6, 182, 212, 0.08);
+            color: #06b6d4;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 100px;
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            margin-right: 6px;
+        }
+
+        .meta-line {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.4);
+            margin-top: 16px;
+        }
+
+        .warning-box {
+            background: rgba(239, 68, 68, 0.05);
+            border: 1px solid rgba(239, 68, 68, 0.15);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 1.5rem 0;
+        }
+
+        .warning-box strong {
+            color: #f87171;
+        }
+
+        .warning-box p {
+            margin: 4px 0 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-cyan-500 focus:text-slate-950 focus:rounded-lg focus:font-bold">Skip
+        to main content</a>
+
+    <!-- Simple Nav -->
+    <nav class="fixed w-full z-[100] bg-slate-950/90 backdrop-blur-md border-b border-white/5" role="navigation"
+        aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+            <a href="/index.html" class="flex items-center gap-3" aria-label="Next MIP — Go to Homepage">
+                <div
+                    class="relative w-10 h-10 bg-slate-900 border border-white/10 rounded-lg flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="12" cy="12" r="2" fill="#06b6d4" />
+                    </svg>
+                </div>
+                <span class="text-xl font-black uppercase leading-none text-white">Next <span
+                        class="text-cyan-400">MIP</span></span>
+            </a>
+            <a href="/index.html#contact"
+                class="inline-flex items-center gap-2 bg-orange-500 text-white text-xs font-black uppercase tracking-wider px-5 py-2.5 rounded-full hover:bg-orange-400 transition-colors">
+                Free Assessment
+            </a>
+        </div>
+    </nav>
+
+    <!-- Article Hero -->
+    <header class="article-hero">
+        <div class="prose-container">
+            <div class="mb-4">
+                <span class="tag">CMMC 2.0</span>
+                <span class="tag">Compliance</span>
+                <span class="tag">Checklist</span>
+            </div>
+            <h1
+                style="font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 900; color: #f1f5f9; line-height: 1.15; margin-bottom: 16px;">
+                CMMC 2.0 Automated Compliance:<br>The 7-Step Checklist
+            </h1>
+            <p style="font-size: 1.1rem; color: #94a3b8; max-width: 600px; line-height: 1.7;">
+                A step-by-step guide for defense contractors to achieve CMMC 2.0 certification using automation —
+                covering all 110 NIST 800-171 controls, SSP creation, POA&amp;M management, and continuous compliance
+                monitoring.
+            </p>
+            <div class="meta-line">
+                <span>By <strong style="color: rgba(255,255,255,0.7)">Next MIP Compliance Team</strong></span>
+                <span>·</span>
+                <span>Published February 20, 2026</span>
+                <span>·</span>
+                <span>~15 min read</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Body -->
+    <main id="main-content" style="padding: 60px 0 80px;">
+        <div class="prose-container">
+            <article class="prose">
+
+                <p><strong>CMMC 2.0 is no longer on the horizon — it's here.</strong> The Department of Defense began
+                    including CMMC requirements in new contracts in 2024, and by 2026, any contractor handling
+                    Controlled Unclassified Information (CUI) without certification risks losing contract eligibility.
+                    The challenge for most mid-sized contractors isn't understanding CMMC — it's executing against 110
+                    controls without overwhelming their team.</p>
+
+                <p>This checklist gives you the exact process, in the right order, to achieve CMMC 2.0 Level 2
+                    compliance — and automate its ongoing maintenance so you don't need a full-time compliance staff to
+                    sustain it.</p>
+
+                <div class="warning-box">
+                    <strong>⚠️ Important:</strong>
+                    <p>CMMC Level 2 requires a third-party assessment by a DoD-authorized C3PAO for most defense
+                        contractors. Self-assessments are only allowed for Levels 1 and certain Level 2 contracts —
+                        confirm your contract requirements before assuming self-attestation is sufficient.</p>
+                </div>
+
+                <h2>What Is CMMC 2.0 And Who Needs It?</h2>
+                <p>The Cybersecurity Maturity Model Certification (CMMC) 2.0 is the DoD's framework for ensuring defense
+                    contractors protect sensitive federal information. It has three levels:</p>
+
+                <table class="definition-table" aria-label="CMMC 2.0 Levels Overview">
+                    <thead>
+                        <tr>
+                            <th>Level</th>
+                            <th>Framework Basis</th>
+                            <th>Assessment Type</th>
+                            <th>Who Needs It</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Level 1 — Foundational</strong></td>
+                            <td>FAR 52.204-21 (17 practices)</td>
+                            <td>Annual self-assessment</td>
+                            <td>Contractors handling FCI only</td>
+                        </tr>
+                        <tr>
+                            <td><strong style="color: #06b6d4;">Level 2 — Advanced</strong></td>
+                            <td>NIST SP 800-171 (110 practices)</td>
+                            <td>C3PAO third-party assessment</td>
+                            <td>Most CUI-handling contractors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Level 3 — Expert</strong></td>
+                            <td>NIST SP 800-172 (110+ practices)</td>
+                            <td>DCSA government assessment</td>
+                            <td>Critical infrastructure / classified</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>The vast majority of defense industrial base (DIB) contractors require <strong>Level 2
+                        certification</strong>. This checklist focuses entirely on Level 2.</p>
+
+                <h2>The 17 CMMC 2.0 Practice Domains</h2>
+                <p>CMMC Level 2's 110 practices span 17 domains. Automation can address monitoring and evidence
+                    collection across most of them — but several require policy and administrative work that cannot be
+                    fully automated:</p>
+
+                <div class="domain-card">
+                    <h3>Access Control (AC) <span class="domain-count">22 practices</span></h3>
+                    <p>Least privilege, multi-factor authentication, remote access controls, CUI access restrictions.
+                    </p>
+                </div>
+                <div class="domain-card">
+                    <h3>Audit & Accountability (AU) <span class="domain-count">9 practices</span></h3>
+                    <p>Event logging, log protection, review and reporting of audit records.</p>
+                </div>
+                <div class="domain-card">
+                    <h3>Configuration Management (CM) <span class="domain-count">9 practices</span></h3>
+                    <p>Baseline configs, change control, security configuration enforcement.</p>
+                </div>
+                <div class="domain-card">
+                    <h3>Identification & Authentication (IA) <span class="domain-count">11 practices</span></h3>
+                    <p>Multi-factor authentication, password management, privileged account controls.</p>
+                </div>
+                <div class="domain-card">
+                    <h3>Incident Response (IR) <span class="domain-count">3 practices</span></h3>
+                    <p>Incident response plan, testing, and post-incident reporting to DoD.</p>
+                </div>
+                <div class="domain-card">
+                    <h3>Risk Assessment (RA) <span class="domain-count">3 practices</span></h3>
+                    <p>Periodic risk assessment, remediation of discovered vulnerabilities.</p>
+                </div>
+                <div class="domain-card">
+                    <h3>System & Communications Protection (SC) + Others <span class="domain-count">53 practices</span>
+                    </h3>
+                    <p>Network segmentation, encryption, media protection, personnel security, physical protection,
+                        system integrity, and more.</p>
+                </div>
+
+                <h2>The 7-Step CMMC 2.0 Automated Compliance Checklist</h2>
+
+                <div class="step-card">
+                    <div class="step-num">Step 01</div>
+                    <h3>Scope Your CUI Environment</h3>
+                    <p>The CMMC assessment boundary is the most critical — and most often mis-scoped — step. Map every
+                        system, network segment, cloud environment, and third-party connection that processes, stores,
+                        or transmits CUI. Use your contracts to identify what information is designated CUI. Anything
+                        outside this boundary does not need to meet CMMC controls. Scoping too broadly wastes resources;
+                        scoping too narrowly creates certification risk.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">Step 02</div>
+                    <h3>Run Your NIST 800-171 Gap Assessment</h3>
+                    <p>Use NIST's official assessment methodology or a commercial GRC tool to evaluate your current
+                        state against all 110 practices. Score each control: 1 (fully implemented), 0.5 (partially
+                        implemented), 0 (not implemented). Calculate your total SPRS (Supplier Performance Risk System)
+                        score — the maximum is 110, and while there is no official pass threshold, DoD primes and
+                        contracting officers are increasingly scrutinizing scores below 105.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">Step 03</div>
+                    <h3>Create Your System Security Plan (SSP)</h3>
+                    <p>The SSP is your primary compliance artifact. It documents: (1) your system boundary, (2) how each
+                        of the 110 controls is implemented, (3) responsible personnel, and (4) system interconnections.
+                        Automation tools can pre-populate large sections of the SSP from your infrastructure scan data —
+                        but narrative descriptions of policies and procedures require human authorship.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">Step 04</div>
+                    <h3>Build Your Plan of Action & Milestones (POA&M)</h3>
+                    <p>For every control scored below 1.0 in your gap assessment, create a POA&M entry that includes:
+                        the control reference, the identified deficiency, the remediation action, the responsible owner,
+                        the resources required, and the target completion date. Automated compliance platforms can
+                        generate draft POA&M entries from gap assessment results and track remediation status in real
+                        time.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">Step 05</div>
+                    <h3>Automate Control Monitoring & Evidence Collection</h3>
+                    <p>This is where automation delivers the most value. Deploy a continuous compliance monitoring stack
+                        that: tracks control status against your SSP in real time, alerts when controls drift from their
+                        documented state, auto-collects audit evidence (log exports, configuration screenshots, access
+                        reviews), and maintains a compliance posture dashboard you can share with contracting officers.
+                        Next MIP's compliance platform automates evidence collection for over 80 of the 110 NIST 800-171
+                        controls.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">Step 06</div>
+                    <h3>Conduct a Pre-Assessment (Mock C3PAO Audit)</h3>
+                    <p>Before engaging a C3PAO, perform an internal pre-assessment using the official CMMC Assessment
+                        Process (CAP) methodology. Walk through each practice domain as if you were the assessor.
+                        Document evidence for every control. Identify any remaining gaps and add them to your POA&M with
+                        aggressive remediation timelines. The goal is to score 108–110 before the official assessment,
+                        giving you buffer for assessor interpretation differences.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">Step 07</div>
+                    <h3>Engage Your C3PAO for Official Certification</h3>
+                    <p>Select a DoD-authorized Certified Third-Party Assessment Organization (C3PAO) from the CMMC-AB
+                        marketplace. Prepare your assessment evidence package: SSP, POA&M, network diagrams, policy
+                        documents, and platform access for automated evidence review. The formal assessment typically
+                        takes 1–2 weeks. Upon passing, your organization is listed in the CMMC-AB eMASS system and your
+                        certification is valid for 3 years.</p>
+                </div>
+
+                <h2>Automation Coverage by Domain</h2>
+                <p>Here is which areas benefit most from automated compliance tooling:</p>
+
+                <table class="definition-table" aria-label="CMMC automation coverage by domain">
+                    <thead>
+                        <tr>
+                            <th>Domain</th>
+                            <th>Automation Coverage</th>
+                            <th>What Still Requires Humans</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Audit & Accountability</strong></td>
+                            <td style="color: #4ade80;">High (85%)</td>
+                            <td>Quarterly review sign-offs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Configuration Management</strong></td>
+                            <td style="color: #4ade80;">High (80%)</td>
+                            <td>Approvals for config changes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Access Control</strong></td>
+                            <td style="color: #facc15;">Medium (60%)</td>
+                            <td>Least-privilege policy decisions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Risk Assessment</strong></td>
+                            <td style="color: #facc15;">Medium (55%)</td>
+                            <td>Risk acceptance decisions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Incident Response</strong></td>
+                            <td style="color: #f87171;">Low (30%)</td>
+                            <td>Plan creation, tabletop exercises, DoD reporting</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Personnel Security</strong></td>
+                            <td style="color: #f87171;">Low (20%)</td>
+                            <td>Background checks, training records</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Common CMMC 2.0 Compliance Mistakes</h2>
+                <ul>
+                    <li><strong>Scoping too broadly.</strong> Including non-CUI systems in your assessment boundary adds
+                        unnecessary controls and cost. Work with your contracting officer to precisely define what
+                        information is CUI.</li>
+                    <li><strong>Confusing self-attestation with third-party assessment.</strong> Most Level 2 contracts
+                        require a C3PAO assessment. Self-attestation is only permitted for a subset of Level 2
+                        contracts.</li>
+                    <li><strong>Treating POA&M as permanent.</strong> A POA&M item is a temporary remediation plan, not
+                        an indefinite exception. C3PAOs will evaluate whether your POA&M items show credible progress.
+                    </li>
+                    <li><strong>Not maintaining evidence between assessments.</strong> CMMC certification is valid for 3
+                        years, but continuous monitoring is required. A gap in evidence collection discovered during a
+                        renewal assessment can result in certification suspension.</li>
+                    <li><strong>Ignoring supply chain obligations.</strong> If you flow CUI to subcontractors, they must
+                        also meet CMMC requirements. Include supply chain compliance verification in your SSP.</li>
+                </ul>
+
+                <h2>How Next MIP Manages CMMC 2.0 Compliance for Defense Contractors</h2>
+                <p>Next MIP's <a href="/compliance/cmmc-2-0.html" style="color: #06b6d4; text-decoration: none;">CMMC
+                        2.0 Automated Compliance Service</a> handles the full lifecycle: gap assessment, SSP authorship,
+                    POA&amp;M management, continuous control monitoring, evidence collection, and C3PAO pre-assessment
+                    preparation. Our platform automates evidence collection for 80+ of the 110 controls — dramatically
+                    reducing the staff hours required to sustain compliance over the 3-year certification period.</p>
+
+                <div class="cta-box">
+                    <h3>Get Your CMMC 2.0 Gap Assessment</h3>
+                    <p>Know exactly where you stand against all 110 NIST 800-171 controls. Free for qualified defense
+                        contractors — results delivered in 5 business days.</p>
+                    <a href="/index.html#contact" class="cta-btn">
+                        Start Your Free Gap Assessment
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </a>
+                </div>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: #020617; border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0;">
+        <div class="prose-container" style="text-align: center;">
+            <p style="color: rgba(255,255,255,0.3); font-size: 12px;">
+                &copy; 2026 Next MIP — America's Premier Managed Intelligence Provider.
+                <a href="/index.html"
+                    style="color: rgba(255,255,255,0.4); text-decoration: none; margin-left: 8px;">Home</a>
+                <a href="/compliance/cmmc-2-0.html"
+                    style="color: rgba(255,255,255,0.4); text-decoration: none; margin-left: 8px;">CMMC 2.0 Services</a>
+                <a href="/index.html#contact"
+                    style="color: rgba(255,255,255,0.4); text-decoration: none; margin-left: 8px;">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        if (window.lucide) { lucide.createIcons(); }
+        document.addEventListener("DOMContentLoaded", function () {
+            if (window.lucide) lucide.createIcons();
+        });
+    </script>
+</body>
+
+</html>

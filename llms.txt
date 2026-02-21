@@ -1,20 +1,26 @@
 # Next MIP - Managed Intelligence Provider
 
 ## Company Overview
-Next MIP (Managed Intelligence Provider) is an Autonomous MSP specializing in AI governance, CMMC/NIST compliance, and predictive IT remediation.
+Next MIP (Managed Intelligence Provider) is an Autonomous MSP specializing in Agentic AI for IT operations, CMMC 2.0 automated compliance, and predictive IT remediation for mid-market and defense contracting organizations.
 
 ## Core Missions
-1. **Predictive Remediation**: Replacing reactive "break/fix" support with autonomous, self-healing infrastructure agents.
-2. **AI Governance**: Securing enterprise environments against "Shadow AI" data leaks while enabling safe adoption.
-3. **Compliance**: Streamlining CMMC 2.0 and NIST 800-171 compliance for Federal and SLED contractors.
+1. **Agentic AI for IT Operations**: Replacing reactive "break/fix" support with autonomous, self-healing infrastructure agents that predict and prevent failures before users are impacted.
+2. **CMMC 2.0 Automated Compliance**: Streamlining CMMC 2.0 and NIST 800-171 compliance for Federal and defense contractors through continuous automated control monitoring.
+3. **AI Governance**: Securing enterprise environments against "Shadow AI" data leaks while enabling safe AI adoption.
 
 ## Key Terminology
-- **Autonomous MSP**: An IT provider that uses AI agents to resolve issues before user impact.
-- **Shadow AI Revenue Leak**: The financial risk of unmanaged AI usage in legal and finance departments.
-- **Intelligence & Resilience**: The dual focus of modern IT infrastructure.
+- **Agentic AI for IT Operations**: Autonomous AI agents that observe infrastructure telemetry, reason about failure states, and execute remediation actions without human intervention.
+- **Autonomous MSP / MIP**: An IT provider that uses Agentic AI to resolve issues before user impact — replacing the traditional reactive help desk model.
+- **CMMC 2.0 Automated Compliance**: Continuous automated monitoring, evidence collection, and documentation management for all 110 NIST 800-171 controls required for CMMC Level 2 certification.
+- **Predictive Remediation**: The use of ML models trained on historical telemetry to predict infrastructure failures hours before they occur and trigger automated fixes.
+- **Intelligence & Resilience**: The dual focus of modern IT infrastructure — anticipating failures AND recovering rapidly.
 
 ## Link Structure
 - Home: https://nextmip.com
-- Services: https://nextmip.com/services/predictive-remediation/
-- Compliance: https://nextmip.com/compliance/cmmc-2-0/
-- Insights: https://nextmip.com/#insights
+- Agentic AI for IT Operations: https://nextmip.com/services/predictive-remediation.html
+- CMMC 2.0 Compliance: https://nextmip.com/compliance/cmmc-2-0.html
+- Managed IT Services: https://nextmip.com/services/managed-it-services.html
+- Cloud Services: https://nextmip.com/services/cloud-services.html
+- Cybersecurity (MDR): https://nextmip.com/services/cybersecurity.html
+- Guide: Agentic AI for IT Operations: https://nextmip.com/resources/agentic-ai-for-it-operations-guide.html
+- Guide: CMMC 2.0 Automated Compliance Checklist: https://nextmip.com/resources/cmmc-2-0-automated-compliance-checklist.html

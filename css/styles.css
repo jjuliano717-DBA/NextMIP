@@ -35,3 +35,79 @@ input[type="range"]::-webkit-slider-thumb {
 .industry-card:hover .industry-icon {
     transform: scale(1.1) rotate(5deg);
 }
+
+/* Accessibility Utilities */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: #06b6d4;
+    color: #020617;
+    padding: 1rem 2rem;
+    z-index: 9999;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Focus Indicators */
+:focus-visible {
+    outline: 3px solid #06b6d4;
+    outline-offset: 4px;
+}
+
+.bg-slate-950 :focus-visible {
+    outline-color: #06b6d4;
+}
+
+/* Global Aesthetic Locks */
+nav,
+header.fixed,
+#mobile-overlay nav {
+    color: white !important;
+}
+
+footer,
+footer address,
+footer ul,
+footer p {
+    color: white !important;
+}
+
+footer h4,
+footer h5 {
+    color: var(--color-cyan-400) !important;
+}
+
+/* Social Media Icons Lock */
+footer .lucide,
+footer [data-lucide] {
+    color: white !important;
+}
+
+/* Performance Optimizations */
+.framework-section {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 340px;
+}
+
+.framework-card {
+    will-change: opacity, transform;
+}

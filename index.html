@@ -2,57 +2,82 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WDN2287H4D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WDN2287H4D');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Next MIP | The Premier Managed Intelligence Provider (MIP)</title>
     <link rel="canonical" href="https://nextmip.com/">
     <meta name="description"
         content="Next MIP is America's leading Managed Intelligence Provider (MIP). We replace reactive IT support with Agentic AI and predictive remediation.">
-    <!-- Schema Markup for LocalBusiness -->
+    <!-- Schema Markup for Organization & Services -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "name": "Next MIP",
-      "image": "https://nextmip.com/logo.png",
-      "description": "Managed Intelligence Provider specializing in autonomous resilience, AI governance, and critical infrastructure protection.",
-      "address": [
-        {
-          "@type": "PostalAddress",
-          "streetAddress": "4521 PGA BLVD, Suite #506",
-          "addressLocality": "Palm Beach Gardens",
-          "addressRegion": "FL",
-          "postalCode": "33418",
-          "addressCountry": "US"
-        },
-        {
-          "@type": "PostalAddress",
-          "streetAddress": "1700 Northside Drive NW, Suite A7, PMB 511",
-          "addressLocality": "Atlanta",
-          "addressRegion": "GA",
-          "postalCode": "30318",
-          "addressCountry": "US"
-        }
-      ],
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "26.837",
-        "longitude": "-80.124"
-      },
       "url": "https://nextmip.com",
-      "telephone": "+15555555555",
+      "logo": "https://nextmip.com/logo.png",
+      "description": "America's leading Managed Intelligence Provider (MIP). Replacing reactive IT support with Agentic AI and predictive remediation.",
       "sameAs": [
-        "https://www.facebook.com/nextmip",
         "https://www.linkedin.com/company/nextmip",
-        "https://twitter.com/nextmip",
-        "https://www.youtube.com/nextmip"
-      ]
+        "https://twitter.com/nextmip"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-555-5555",
+        "contactType": "sales",
+        "areaServed": "US",
+        "availableLanguage": "en"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Managed Intelligence Services",
+        "itemListElement": [
+          {
+            "@type": "Service",
+            "name": "Agentic AI Support",
+            "description": "Autonomous IT remediation agents that fix issues before they impact users.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Next MIP"
+            },
+            "serviceType": "Managed Intelligence"
+          },
+          {
+            "@type": "Service",
+            "name": "Predictive Remediation",
+            "description": "AI-driven analytics that predict and prevent server and endpoint failures.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Next MIP"
+            },
+            "serviceType": "IT Operations"
+          },
+          {
+            "@type": "Service",
+            "name": "CMMC 2.0 Compliance",
+            "description": "Automated security compliance for defense contractors.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Next MIP"
+            },
+            "serviceType": "Cybersecurity"
+          }
+        ]
+      }
     }
     </script>
 
     <!-- Self-Contained Favicon -->
-    <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2306b6d4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2L3 7V17L12 22L21 17V7L12 2Z'/%3E%3Cpath d='M12 22V12'/%3E%3Cpath d='M21 7L12 12L3 7'/%3E%3Ccircle cx='12' cy='12' r='2' fill='%2306b6d4'/%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
 
     <!-- GEO/AEO Advanced Schema Matrix -->
     <script type="application/ld+json">
@@ -79,113 +104,2207 @@
     ]
     </script>
 
-    <!-- FAQ Schema for "What is a MIP?" Featured Snippet -->
+    <!-- FAQ Schema — GEO/AEO Featured Snippets -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What is a Managed Intelligence Provider (MIP)?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A Managed Intelligence Provider (MIP) is the evolution of the traditional Managed Service Provider (MSP). While MSPs focus on maintaining server uptime, a MIP uses Agentic AI to predict failures before they happen and automate business workflows to drive revenue efficiency."
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Managed Intelligence Provider (MIP)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Managed Intelligence Provider (MIP) is the evolution of the traditional Managed Service Provider (MSP). While MSPs focus on maintaining server uptime, a MIP uses Agentic AI to predict failures before they happen and automate business workflows to drive revenue efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Agentic AI for IT operations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agentic AI for IT operations refers to autonomous AI agents that continuously monitor infrastructure, detect anomalies, and execute remediation actions without human intervention. Unlike traditional monitoring tools that alert technicians, agentic AI resolves incidents automatically—reducing mean time to repair (MTTR) by up to 80%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does predictive remediation reduce IT downtime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Predictive remediation uses machine learning models trained on historical telemetry data to identify failure patterns hours before an outage occurs. The system automatically applies fixes—restarting services, reallocating resources, or escalating to engineers—before users are ever impacted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a MIP differ from a traditional MSP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A traditional MSP is reactive: they respond after something breaks. A Managed Intelligence Provider (MIP) is proactive and autonomous: AI agents prevent failures before they happen, automate compliance workflows, and provide strategic intelligence—delivering outcomes instead of just uptime."
+          }
         }
-      }]
+      ]
+    }
+    </script>
+
+    <!-- WebPage Schema — Entity Clarity -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Next MIP — America's Premier Managed Intelligence Provider",
+      "url": "https://nextmip.com/",
+      "description": "Next MIP is America's leading Managed Intelligence Provider (MIP). We replace reactive IT support with Agentic AI and predictive remediation.",
+      "isPartOf": { "@type": "WebSite", "name": "Next MIP", "url": "https://nextmip.com" },
+      "about": { "@type": "Organization", "name": "Next MIP" },
+      "inLanguage": "en-US",
+      "dateModified": "2026-02-20"
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nextmip.com/" }
+      ]
+    }
+    </script>
+
+    <!-- LocalBusiness Schema (New York) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Next MIP New York",
+      "image": "https://nextmip.com/logo.png",
+      "description": "Managed Intelligence Provider specializing in autonomous resilience, AI governance, and critical infrastructure protection for New York businesses.",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "108 W 39th St, Suite 1006",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10018",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-800-NEXT-MIP",
+      "url": "https://nextmip.com/",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/nextmip",
+        "https://twitter.com/nextmip"
+      ]
     }
     </script>
 
     <link rel="stylesheet" href="css/output.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/lucide@latest" onload="lucide.createIcons()"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+            rel="stylesheet">
+    </noscript>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body class="bg-slate-950 text-slate-100 selection:bg-cyan-500/30 overflow-x-hidden">
+<body class="bg-slate-950 text-slate-200 font-sans antialiased selection:bg-cyan-500/30 overflow-x-hidden">
 
-    <!-- Navigation -->
-    <nav class="fixed w-full z-[100] bg-slate-950/90 backdrop-blur-md border-b border-white/5" role="navigation">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3" aria-label="Next MIP Home">
-                <div class="relative group">
-                    <div class="absolute -inset-1 bg-cyan-500 rounded-lg blur opacity-20 transition duration-1000">
-                    </div>
-                    <div
-                        class="relative w-10 h-10 bg-slate-900 border border-white/10 rounded-lg flex items-center justify-center">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <circle cx="12" cy="12" r="2" fill="#06b6d4" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="flex flex-col">
-                    <span
-                        class="text-xl font-extrabold tracking-tighter uppercase leading-none text-white font-black">Next
-                        <span class="text-cyan-400">MIP</span></span>
-                    <span class="text-[8px] font-black text-white tracking-[0.2em] uppercase mt-1">Intelligence &
-                        Resilience IT Solutions</span>
-                </div>
-            </a>
+    <style>
+        /* ── Sticky shadow on scroll ───────────────────────────────── */
+        #mip-nav.scrolled {
+            box-shadow: 0 4px 32px rgba(0, 0, 0, 0.45);
+        }
 
-            <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-400">
-                <a href="#industries"
-                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Industries</a>
-                <a href="#outcomes"
-                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Outcomes</a>
-                <a href="#insights"
-                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Insights</a>
-                <a href="NEXT MIP v1.pdf" target="_blank"
-                    class="hover:text-cyan-400 transition-colors uppercase font-black text-[11px] tracking-widest">Evolution
-                    Deck</a>
-                <a href="#contact"
-                    class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-6 py-2 rounded-full font-bold transition-all shadow-lg shadow-cyan-500/20 uppercase font-black text-[11px] tracking-widest">
-                    Audit Request
+        /* ── Desktop nav links ─────────────────────────────────────── */
+        .mip-nav-link {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            transition: color 0.2s ease;
+            padding: 4px 0;
+        }
+
+        .mip-nav-link:hover,
+        .mip-nav-link:focus-visible {
+            color: #06b6d4;
+        }
+
+        /* Active underline */
+        .mip-nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #06b6d4;
+            border-radius: 2px;
+        }
+
+        /* Dropdown caret */
+        .mip-nav-link .mip-caret {
+            width: 12px;
+            height: 12px;
+            transition: transform 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .mip-dropdown-wrap:hover .mip-caret,
+        .mip-dropdown-wrap:focus-within .mip-caret,
+        .mip-dropdown-wrap[data-open="true"] .mip-caret {
+            transform: rotate(180deg);
+        }
+
+        /* ── Dropdown base ─────────────────────────────────────────── */
+        .mip-dropdown {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            z-index: 200;
+            background: #020617;
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 16px;
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+            pointer-events: none;
+        }
+
+        .mip-dropdown-wrap:hover .mip-dropdown,
+        .mip-dropdown-wrap:focus-within .mip-dropdown,
+        .mip-dropdown-wrap[data-open="true"] .mip-dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+            pointer-events: all;
+        }
+
+        /* ── Mega dropdown (Services) ──────────────────────────────── */
+        .mip-mega {
+            min-width: 720px;
+            padding: 28px 28px 0;
+        }
+
+        .mip-mega-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px 24px;
+        }
+
+        .mip-mega-col-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            color: #06b6d4;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .mip-mega-col-title svg {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+        }
+
+        .mip-mega-item {
+            display: block;
+            padding: 7px 8px;
+            border-radius: 8px;
+            font-size: 11.5px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.72);
+            transition: background 0.15s ease, color 0.15s ease;
+            white-space: nowrap;
+            text-decoration: none;
+            margin-bottom: 2px;
+        }
+
+        .mip-mega-item:hover,
+        .mip-mega-item:focus-visible {
+            background: rgba(6, 182, 212, 0.08);
+            color: #06b6d4;
+        }
+
+        /* Mega bottom CTA bar */
+        .mip-mega-cta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 0;
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .mip-mega-cta-text {
+            font-size: 11px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .mip-mega-cta-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #f97316;
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 7px 16px;
+            border-radius: 100px;
+            transition: background 0.2s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mip-mega-cta-link:hover {
+            background: #fb923c;
+        }
+
+        /* ── Simple dropdown (Industries) ──────────────────────────── */
+        .mip-simple-dropdown {
+            min-width: 220px;
+            padding: 10px;
+        }
+
+        .mip-simple-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.75);
+            transition: background 0.15s ease, color 0.15s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mip-simple-item:hover,
+        .mip-simple-item:focus-visible {
+            background: rgba(6, 182, 212, 0.08);
+            color: #06b6d4;
+        }
+
+        .mip-simple-item svg {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+            color: #475569;
+        }
+
+        .mip-simple-item:hover svg {
+            color: #06b6d4;
+        }
+
+        /* ── Portal ghost button ────────────────────────────────────── */
+        .mip-portal-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 6px 14px;
+            border-radius: 100px;
+            transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mip-portal-btn:hover,
+        .mip-portal-btn:focus-visible {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.4);
+            color: white;
+        }
+
+        .mip-portal-btn svg {
+            width: 13px;
+            height: 13px;
+        }
+
+        /* ── Primary CTA — orange ─────────────── */
+        .mip-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #f97316;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 8px 22px;
+            border-radius: 100px;
+            transition: background 0.2s ease, box-shadow 0.2s ease;
+            text-decoration: none;
+            white-space: nowrap;
+            box-shadow: 0 0 20px rgba(249, 115, 22, 0.25);
+        }
+
+        .mip-cta-btn:hover,
+        .mip-cta-btn:focus-visible {
+            background: #fb923c;
+            box-shadow: 0 0 28px rgba(249, 115, 22, 0.45);
+        }
+
+        /* ── Hamburger ──────────────────────────────────────────────── */
+        .mip-hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            gap: 5px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 8px;
+            transition: background 0.2s ease;
+        }
+
+        .mip-hamburger:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .mip-hamburger .bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: white;
+            border-radius: 2px;
+            transition: transform 0.25s ease, opacity 0.2s ease, width 0.2s ease;
+            transform-origin: center;
+        }
+
+        .mip-hamburger[aria-expanded="true"] .bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .mip-hamburger[aria-expanded="true"] .bar:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        .mip-hamburger[aria-expanded="true"] .bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        @media (max-width: 1023px) {
+            .mip-hamburger {
+                display: flex;
+            }
+
+            .mip-desktop-links {
+                display: none !important;
+            }
+        }
+
+        /* ── Mobile Drawer ──────────────────────────────────────────── */
+        #mip-mobile-drawer {
+            position: fixed;
+            inset: 0;
+            top: 0;
+            z-index: 300;
+            background: #020617;
+            transform: translateX(100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+        }
+
+        #mip-mobile-drawer.open {
+            transform: translateX(0);
+        }
+
+        .mip-drawer-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            flex-shrink: 0;
+        }
+
+        .mip-drawer-body {
+            flex: 1;
+            padding: 16px 20px 24px;
+            overflow-y: auto;
+        }
+
+        .mip-accordion-btn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 16px;
+            border-radius: 12px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: white;
+            transition: background 0.15s ease, color 0.15s ease;
+            text-align: left;
+        }
+
+        .mip-accordion-btn:hover,
+        .mip-accordion-btn:focus-visible {
+            background: rgba(255, 255, 255, 0.04);
+            color: #06b6d4;
+        }
+
+        .mip-accordion-btn .mip-caret {
+            transition: transform 0.25s ease;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .mip-accordion-btn[aria-expanded="true"] .mip-caret {
+            transform: rotate(180deg);
+            color: #06b6d4;
+        }
+
+        .mip-accordion-content {
+            overflow: hidden;
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.3s ease;
+        }
+
+        .mip-accordion-content>* {
+            min-height: 0;
+            overflow: hidden;
+        }
+
+        .mip-accordion-inner {
+            padding: 4px 8px 12px 16px;
+        }
+
+        .mip-mobile-sub-title {
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #06b6d4;
+            padding: 10px 8px 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .mip-mobile-sub-item {
+            display: block;
+            padding: 9px 8px;
+            border-radius: 8px;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.65);
+            transition: color 0.15s ease, background 0.15s ease;
+            text-decoration: none;
+        }
+
+        .mip-mobile-sub-item:hover,
+        .mip-mobile-sub-item:focus-visible {
+            color: #06b6d4;
+            background: rgba(6, 182, 212, 0.06);
+        }
+
+        .mip-mobile-direct-link {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: white;
+            text-decoration: none;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        .mip-mobile-direct-link:hover,
+        .mip-mobile-direct-link:focus-visible {
+            background: rgba(255, 255, 255, 0.04);
+            color: #06b6d4;
+        }
+
+        .mip-drawer-footer {
+            padding: 16px 20px 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .mip-mobile-portal-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        }
+
+        .mip-mobile-portal-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.35);
+            color: white;
+        }
+
+        .mip-mobile-cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #f97316;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 16px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: background 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 0 24px rgba(249, 115, 22, 0.25);
+        }
+
+        .mip-mobile-cta-btn:hover {
+            background: #fb923c;
+            box-shadow: 0 0 32px rgba(249, 115, 22, 0.4);
+        }
+
+        #mip-drawer-backdrop {
+            position: fixed;
+            inset: 0;
+            z-index: 299;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        #mip-drawer-backdrop.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        body.mip-drawer-open {
+            overflow: hidden;
+        }
+
+        .mip-dropdown-wrap {
+            position: relative;
+        }
+
+        /* Industries dropdown — right-edge clamped to avoid viewport overflow */
+        #mip-industries-dropdown {
+            left: auto;
+            right: 0;
+            transform: translateY(-8px);
+        }
+
+        .mip-dropdown-wrap:hover #mip-industries-dropdown,
+        .mip-dropdown-wrap:focus-within #mip-industries-dropdown,
+        .mip-dropdown-wrap[data-open="true"] #mip-industries-dropdown {
+            transform: translateY(0);
+        }
+
+        /* ── NAV LAYOUT: two intentional groups ────────────────────── */
+        .mip-nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        /* Left cluster: text nav links — wide breathing room */
+        .mip-nav-links-group {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+        }
+
+        /* Right cluster: Portal + CTA — tight as a unit */
+        .mip-nav-actions-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        /* Thin vertical rule between the two groups */
+        .mip-nav-divider {
+            width: 1px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            margin: 0 8px;
+        }
+
+        /* Demo page */
+        .mip-demo-body {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        /* Divider line in mobile drawer */
+        .mip-drawer-divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.05);
+            margin: 8px 0;
+        }
+    </style>
+
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-cyan-500 focus:text-slate-950 focus:rounded-lg focus:font-bold">Skip
+        to main content</a>
+
+    <nav id="mip-nav"
+        class="fixed w-full z-[100] bg-slate-950/90 backdrop-blur-md border-b border-white/5 transition-all duration-300"
+        role="navigation" aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto px-8 h-20 flex items-center">
+            <div class="mip-nav-inner">
+
+                <!-- ── Logo ──────────────────────────────────────────────── -->
+                <a href="/index.html" class="flex items-center gap-3 shrink-0" aria-label="Next MIP — Go to Homepage">
+                    <div class="relative group">
+                        <div class="absolute -inset-1 bg-cyan-500 rounded-lg blur opacity-20 transition duration-1000">
+                        </div>
+                        <div
+                            class="relative w-10 h-10 bg-slate-900 border border-white/10 rounded-lg flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="12" cy="12" r="2" fill="#06b6d4" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xl font-black uppercase leading-none text-white">Next <span
+                                class="text-cyan-400">MIP</span></span>
+                        <span class="text-[8px] font-black text-white tracking-[0.2em] uppercase mt-1">Intelligence
+                            &amp; Resilience</span>
+                    </div>
                 </a>
-            </div>
 
-            <button class="lg:hidden p-2 text-slate-400 hover:text-white transition-colors" id="mobile-menu-btn"
-                aria-label="Open Menu">
-                <i data-lucide="menu" class="w-6 h-6"></i>
-            </button>
+                <!-- ── Desktop Nav (hidden on tablet/mobile) ─────────────── -->
+                <div class="mip-desktop-links hidden lg:flex items-center">
+
+                    <!-- TEXT LINKS GROUP — wide gap for breathing room -->
+                    <div class="mip-nav-links-group">
+
+                        <!-- Services Mega Dropdown -->
+                        <div class="mip-dropdown-wrap" id="mip-services-wrap">
+                            <button class="mip-nav-link" aria-haspopup="true" aria-expanded="false"
+                                id="mip-services-trigger" aria-controls="mip-services-dropdown">
+                                Services
+                                <svg class="mip-caret" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <div class="mip-dropdown mip-mega" id="mip-services-dropdown" role="menu"
+                                aria-labelledby="mip-services-trigger">
+                                <div class="mip-mega-grid">
+
+                                    <!-- Col 1: Cybersecurity -->
+                                    <div>
+                                        <div class="mip-mega-col-title">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                            </svg>
+                                            Cybersecurity
+                                        </div>
+                                        <a href="/services/cybersecurity.html" class="mip-mega-item"
+                                            role="menuitem">Managed Detection &amp; Response (MDR)</a>
+                                        <a href="/services/cybersecurity-managed-soc-siem.html" class="mip-mega-item"
+                                            role="menuitem">Managed SOC &amp; SIEM</a>
+                                        <a href="/services/cybersecurity.html" class="mip-mega-item"
+                                            role="menuitem">Email Security &amp; Phishing</a>
+                                        <a href="/compliance/cmmc-2-0.html" class="mip-mega-item" role="menuitem">HIPAA,
+                                            CMMC &amp; SOC 2</a>
+                                        <a href="/services/cybersecurity.html" class="mip-mega-item"
+                                            role="menuitem">Zero Trust &amp; MFA</a>
+                                    </div>
+
+                                    <!-- Col 2: Cloud Services -->
+                                    <div>
+                                        <div class="mip-mega-col-title">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                                            </svg>
+                                            Cloud Services
+                                        </div>
+                                        <a href="/services/cloud-services.html" class="mip-mega-item"
+                                            role="menuitem">Microsoft 365 Management</a>
+                                        <a href="/services/cloud-services.html" class="mip-mega-item"
+                                            role="menuitem">Azure &amp; Cloud Migration</a>
+                                        <a href="/services/cloud-services.html" class="mip-mega-item"
+                                            role="menuitem">Cloud Backup &amp; DR</a>
+                                        <a href="/services/cloud-services.html" class="mip-mega-item"
+                                            role="menuitem">Multi-Cloud Management</a>
+                                    </div>
+
+                                    <!-- Col 3: Managed IT -->
+                                    <div>
+                                        <div class="mip-mega-col-title">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                                <line x1="8" y1="21" x2="16" y2="21" />
+                                                <line x1="12" y1="17" x2="12" y2="21" />
+                                            </svg>
+                                            Managed IT
+                                        </div>
+                                        <a href="/services/managed-it-services.html" class="mip-mega-item"
+                                            role="menuitem">Fully Managed IT (MSP 3.0)</a>
+                                        <a href="/services/co-managed-it.html" class="mip-mega-item"
+                                            role="menuitem">Co-Managed IT</a>
+                                        <a href="/services/managed-it-services.html" class="mip-mega-item"
+                                            role="menuitem">Help Desk &amp; Remote Support</a>
+                                        <a href="/services/managed-it-services.html" class="mip-mega-item"
+                                            role="menuitem">Network Monitoring</a>
+                                    </div>
+
+                                    <!-- Col 4: AI & Automation -->
+                                    <div>
+                                        <div class="mip-mega-col-title">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                                <path d="M12 2a10 10 0 1 0 10 10" />
+                                                <path d="M12 6v6l4 2" />
+                                                <circle cx="18" cy="6" r="3" />
+                                            </svg>
+                                            AI &amp; Automation
+                                        </div>
+                                        <a href="/services/predictive-remediation.html" class="mip-mega-item"
+                                            role="menuitem">AI-Powered IT Management</a>
+                                        <a href="/services/predictive-remediation.html" class="mip-mega-item"
+                                            role="menuitem">Workflow Automation</a>
+                                        <a href="/services/predictive-remediation.html" class="mip-mega-item"
+                                            role="menuitem">Predictive Maintenance</a>
+                                        <a href="/services/it-consulting.html" class="mip-mega-item"
+                                            role="menuitem">vCIO Strategic Roadmap</a>
+                                    </div>
+
+                                </div><!-- /grid -->
+
+                                <!-- Bottom CTA Bar -->
+                                <div class="mip-mega-cta">
+                                    <span class="mip-mega-cta-text">Not sure what you need?</span>
+                                    <a href="/index.html#contact" class="mip-mega-cta-link" role="menuitem">
+                                        Free Assessment
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" aria-hidden="true">
+                                            <line x1="5" y1="12" x2="19" y2="12" />
+                                            <polyline points="12 5 19 12 12 19" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- /services wrap -->
+
+                        <!-- Industries Dropdown -->
+                        <div class="mip-dropdown-wrap" id="mip-industries-wrap">
+                            <button class="mip-nav-link" aria-haspopup="true" aria-expanded="false"
+                                id="mip-industries-trigger" aria-controls="mip-industries-dropdown">
+                                Industries
+                                <svg class="mip-caret" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <div class="mip-dropdown mip-simple-dropdown" id="mip-industries-dropdown" role="menu"
+                                aria-labelledby="mip-industries-trigger">
+                                <a href="/industries/healthcare-hitrust.html" class="mip-simple-item" role="menuitem">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                    </svg>
+                                    Healthcare
+                                </a>
+                                <a href="/industries/financial-services.html" class="mip-simple-item" role="menuitem">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <line x1="12" y1="1" x2="12" y2="23" />
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                    </svg>
+                                    Finance &amp; Legal
+                                </a>
+                                <a href="/industries/manufacturing-supply-chain.html" class="mip-simple-item"
+                                    role="menuitem">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <rect x="3" y="3" width="7" height="7" />
+                                        <rect x="14" y="3" width="7" height="7" />
+                                        <rect x="14" y="14" width="7" height="7" />
+                                        <rect x="3" y="14" width="7" height="7" />
+                                    </svg>
+                                    Manufacturing
+                                </a>
+                                <a href="/industries/employee-benefit-funds.html" class="mip-simple-item"
+                                    role="menuitem">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                        <circle cx="9" cy="7" r="4" />
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                    </svg>
+                                    Small &amp; Mid-Sized Business
+                                </a>
+                                <a href="/compliance/cmmc-2-0.html" class="mip-simple-item" role="menuitem">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                    Government &amp; Education
+                                </a>
+                            </div>
+                        </div><!-- /industries wrap -->
+
+                        <!-- Why NextMIP — Direct link -->
+                        <a href="/what-is-a-managed-intelligence-provider.html" class="mip-nav-link">Why NextMIP</a>
+
+                        <!-- About — Direct link -->
+                        <a href="/about.html" class="mip-nav-link">About</a>
+
+                        <!-- Vs MSP — Direct link -->
+                        <a href="/managed-it-vs-managed-intelligence.html" class="mip-nav-link">MIP Vs MSP</a>
+
+                        <!-- Insights — Direct link -->
+                        <a href="/#insights" class="mip-nav-link">Insights</a>
+
+                    </div><!-- /links group -->
+
+                    <!-- Vertical divider between nav links and action buttons -->
+                    <div class="mip-nav-divider" aria-hidden="true"></div>
+
+                    <!-- ACTIONS GROUP — Portal + CTA grouped tight -->
+                    <div class="mip-nav-actions-group">
+                        <!-- TODO: Replace href with actual portal URL before go-live -->
+                        <a href="/client-portal.html" target="_blank" rel="noopener noreferrer" class="mip-portal-btn"
+                            aria-label="Client Portal — opens in a new tab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                            </svg>
+                            Portal
+                        </a>
+                        <a href="/index.html#contact" class="mip-cta-btn" aria-label="Free Assessment">
+                            Free Assessment
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </a>
+                    </div>
+
+                </div><!-- /desktop links -->
+
+                <!-- ── Hamburger ──────────────────────────────────────── -->
+                <button class="mip-hamburger" id="mip-hamburger" aria-controls="mip-mobile-drawer" aria-expanded="false"
+                    aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+            </div>
         </div>
     </nav>
 
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-overlay"
-        class="fixed inset-0 z-[101] bg-slate-950/98 backdrop-blur-lg transform translate-x-full transition-transform duration-300 lg:hidden flex flex-col p-8">
-        <div class="flex items-center justify-between mb-12">
-            <div class="flex items-center gap-3 text-white">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+    <div id="mip-drawer-backdrop" aria-hidden="true"></div>
+
+    <div id="mip-mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+
+        <div class="mip-drawer-header">
+            <a href="/index.html" class="flex items-center gap-3" aria-label="Next MIP Home">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2" />
                     <circle cx="12" cy="12" r="2" fill="#06b6d4" />
                 </svg>
-                <span class="text-lg font-extrabold uppercase">Next <span class="text-cyan-400">MIP</span></span>
-            </div>
-            <button id="mobile-close-btn" class="p-2 text-slate-400"><i data-lucide="x"></i></button>
+                <span class="text-lg font-black uppercase text-white">Next <span class="text-cyan-400">MIP</span></span>
+            </a>
+            <button id="mip-drawer-close"
+                class="p-2 text-slate-400 hover:text-white transition-colors rounded-lg hover:bg-white/5"
+                aria-label="Close navigation menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </button>
         </div>
-        <nav class="flex flex-col gap-6 text-center">
-            <a href="#industries"
-                class="mobile-nav-link text-2xl font-bold uppercase tracking-widest text-slate-300">Industries</a>
-            <a href="#insights"
-                class="mobile-nav-link text-2xl font-bold uppercase tracking-widest text-slate-300">Insights</a>
-            <a href="NEXT MIP v1.pdf" target="_blank"
-                class="mobile-nav-link text-2xl font-bold uppercase tracking-widest text-slate-300">Presentation</a>
-            <a href="#contact"
-                class="mobile-nav-link bg-cyan-500 text-slate-950 py-4 rounded-xl font-black uppercase tracking-widest">Audit
-                Request</a>
-        </nav>
+
+        <div class="mip-drawer-body">
+
+            <!-- Services Accordion -->
+            <div class="mb-1">
+                <button class="mip-accordion-btn" aria-expanded="false" aria-controls="mip-mob-services-panel"
+                    id="mip-mob-services-btn">
+                    Services
+                    <svg class="mip-caret w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </button>
+                <div class="mip-accordion-content" id="mip-mob-services-panel" role="region"
+                    aria-labelledby="mip-mob-services-btn">
+                    <div class="mip-accordion-inner">
+                        <div class="mip-mobile-sub-title">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                            Cybersecurity
+                        </div>
+                        <a href="/services/cybersecurity.html" class="mip-mobile-sub-item">MDR &amp; Threat
+                            Detection</a>
+                        <a href="/services/cybersecurity-managed-soc-siem.html" class="mip-mobile-sub-item">Managed SOC
+                            &amp; SIEM</a>
+                        <a href="/compliance/cmmc-2-0.html" class="mip-mobile-sub-item">HIPAA, CMMC &amp; SOC 2</a>
+                        <a href="/services/cybersecurity.html" class="mip-mobile-sub-item">Zero Trust &amp; MFA</a>
+                        <div class="mip-mobile-sub-title mt-2">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                            </svg>
+                            Cloud Services
+                        </div>
+                        <a href="/services/cloud-services.html" class="mip-mobile-sub-item">Microsoft 365 Management</a>
+                        <a href="/services/cloud-services.html" class="mip-mobile-sub-item">Azure &amp; Cloud
+                            Migration</a>
+                        <a href="/services/cloud-services.html" class="mip-mobile-sub-item">Cloud Backup &amp; DR</a>
+                        <div class="mip-mobile-sub-title mt-2">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <rect x="2" y="3" width="20" height="14" rx="2" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                            </svg>
+                            Managed IT
+                        </div>
+                        <a href="/services/managed-it-services.html" class="mip-mobile-sub-item">Fully Managed IT (MSP
+                            3.0)</a>
+                        <a href="/services/co-managed-it.html" class="mip-mobile-sub-item">Co-Managed IT</a>
+                        <a href="/services/managed-it-services.html" class="mip-mobile-sub-item">Help Desk &amp; Remote
+                            Support</a>
+                        <div class="mip-mobile-sub-title mt-2">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                            AI &amp; Automation
+                        </div>
+                        <a href="/services/predictive-remediation.html" class="mip-mobile-sub-item">AI-Powered IT
+                            Management</a>
+                        <a href="/services/predictive-remediation.html" class="mip-mobile-sub-item">Workflow
+                            Automation</a>
+                        <a href="/services/it-consulting.html" class="mip-mobile-sub-item">vCIO Strategic Roadmap</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Industries Accordion -->
+            <div class="mb-1">
+                <button class="mip-accordion-btn" aria-expanded="false" aria-controls="mip-mob-industries-panel"
+                    id="mip-mob-industries-btn">
+                    Industries
+                    <svg class="mip-caret w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </button>
+                <div class="mip-accordion-content" id="mip-mob-industries-panel" role="region"
+                    aria-labelledby="mip-mob-industries-btn">
+                    <div class="mip-accordion-inner">
+                        <a href="/industries/healthcare-hitrust.html" class="mip-mobile-sub-item">Healthcare</a>
+                        <a href="/industries/financial-services.html" class="mip-mobile-sub-item">Finance &amp;
+                            Legal</a>
+                        <a href="/industries/manufacturing-supply-chain.html"
+                            class="mip-mobile-sub-item">Manufacturing</a>
+                        <a href="/industries/employee-benefit-funds.html" class="mip-mobile-sub-item">Small &amp;
+                            Mid-Sized Business</a>
+                        <a href="/compliance/cmmc-2-0.html" class="mip-mobile-sub-item">Government &amp; Education</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mip-drawer-divider"></div>
+
+            <!-- Direct links -->
+            <a href="/what-is-a-managed-intelligence-provider.html" class="mip-mobile-direct-link">Why NextMIP</a>
+            <a href="/about.html" class="mip-mobile-direct-link">About</a>
+            <a href="/managed-it-vs-managed-intelligence.html" class="mip-mobile-direct-link">MIP Vs MSP</a>
+            <a href="/#insights" class="mip-mobile-direct-link">Insights</a>
+
+        </div><!-- /drawer body -->
+
+        <!-- Drawer Footer CTAs -->
+        <div class="mip-drawer-footer">
+            <!-- TODO: Replace href with actual portal URL before go-live -->
+            <a href="/client-portal.html" target="_blank" rel="noopener noreferrer" class="mip-mobile-portal-btn"
+                aria-label="Client Portal — opens in a new tab">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+                Client Portal
+            </a>
+            <a href="/index.html#contact" class="mip-mobile-cta-btn">
+                Free Assessment
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                </svg>
+            </a>
+        </div>
+
     </div>
 
+    <script>
+        (() => {
+            'use strict';
+
+            const $ = (sel, ctx = document) => ctx.querySelector(sel);
+            const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
+
+            /* ── Sticky shadow ────────────────────────────────────────── */
+            const nav = $('#mip-nav');
+            const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 10);
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+
+            /* ── Active link detection ────────────────────────────────── */
+            const currentPath = window.location.pathname.replace(/\/$/, '') || '/';
+            $$('.mip-nav-link[href]').forEach(link => {
+                const href = link.getAttribute('href').replace(/\/$/, '') || '/';
+                if (href && href !== '#' && currentPath.endsWith(href)) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                }
+            });
+
+            /* ── Desktop Dropdowns ────────────────────────────────────── */
+            $$('.mip-dropdown-wrap').forEach(wrap => {
+                const trigger = $('[aria-haspopup]', wrap);
+                const dropdown = $('[role="menu"]', wrap);
+                if (!trigger || !dropdown) return;
+
+                let closeTimer = null;
+
+                const openDrop = () => {
+                    clearTimeout(closeTimer);
+                    wrap.setAttribute('data-open', 'true');
+                    trigger.setAttribute('aria-expanded', 'true');
+                    dropdown.removeAttribute('aria-hidden');
+                };
+
+                const closeDrop = () => {
+                    closeTimer = setTimeout(() => {
+                        wrap.removeAttribute('data-open');
+                        trigger.setAttribute('aria-expanded', 'false');
+                        dropdown.setAttribute('aria-hidden', 'true');
+                    }, 120);
+                };
+
+                wrap.addEventListener('mouseenter', openDrop);
+                wrap.addEventListener('mouseleave', closeDrop);
+                trigger.addEventListener('click', e => {
+                    e.stopPropagation();
+                    wrap.getAttribute('data-open') === 'true' ? closeDrop() : openDrop();
+                });
+                wrap.addEventListener('focusin', openDrop);
+                wrap.addEventListener('focusout', e => { if (!wrap.contains(e.relatedTarget)) closeDrop(); });
+
+                trigger.addEventListener('keydown', e => {
+                    if (e.key === 'Escape') closeDrop();
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        wrap.getAttribute('data-open') === 'true' ? closeDrop() : openDrop();
+                    }
+                    if (e.key === 'ArrowDown') { e.preventDefault(); openDrop(); $('[role="menuitem"]', dropdown)?.focus(); }
+                });
+
+                dropdown.addEventListener('keydown', e => {
+                    const items = $$('[role="menuitem"]', dropdown);
+                    const idx = items.indexOf(document.activeElement);
+                    if (e.key === 'ArrowDown') { e.preventDefault(); items[Math.min(idx + 1, items.length - 1)]?.focus(); }
+                    if (e.key === 'ArrowUp') { e.preventDefault(); idx > 0 ? items[idx - 1]?.focus() : trigger.focus(); }
+                    if (e.key === 'Escape') { closeDrop(); trigger.focus(); }
+                    if (e.key === 'Tab') closeDrop();
+                });
+            });
+
+            document.addEventListener('click', e => {
+                if (!e.target.closest('.mip-dropdown-wrap')) {
+                    $$('.mip-dropdown-wrap').forEach(wrap => {
+                        wrap.removeAttribute('data-open');
+                        $('[aria-haspopup]', wrap)?.setAttribute('aria-expanded', 'false');
+                    });
+                }
+            });
+
+            /* ── Mobile Drawer ────────────────────────────────────────── */
+            const hamburger = $('#mip-hamburger');
+            const drawer = $('#mip-mobile-drawer');
+            const backdrop = $('#mip-drawer-backdrop');
+            const closeBtn = $('#mip-drawer-close');
+            const focusableSelectors = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+            let lastFocused = null;
+
+            const openDrawer = () => {
+                lastFocused = document.activeElement;
+                drawer.classList.add('open');
+                drawer.setAttribute('aria-hidden', 'false');
+                backdrop.classList.add('visible');
+                hamburger.setAttribute('aria-expanded', 'true');
+                document.body.classList.add('mip-drawer-open');
+                setTimeout(() => $(focusableSelectors, drawer)?.focus(), 50);
+            };
+
+            const closeDrawer = () => {
+                drawer.classList.remove('open');
+                drawer.setAttribute('aria-hidden', 'true');
+                backdrop.classList.remove('visible');
+                hamburger.setAttribute('aria-expanded', 'false');
+                document.body.classList.remove('mip-drawer-open');
+                $$('.mip-accordion-btn[aria-expanded="true"]').forEach(btn => {
+                    btn.setAttribute('aria-expanded', 'false');
+                    const p = $('#' + btn.getAttribute('aria-controls'));
+                    if (p) p.style.maxHeight = null;
+                });
+                lastFocused?.focus();
+            };
+
+            hamburger.addEventListener('click', openDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+            backdrop.addEventListener('click', closeDrawer);
+            document.addEventListener('keydown', e => { if (e.key === 'Escape' && drawer.classList.contains('open')) closeDrawer(); });
+
+            /* Focus trap */
+            drawer.addEventListener('keydown', e => {
+                if (e.key !== 'Tab') return;
+                const focusable = $$(focusableSelectors, drawer).filter(el => !el.closest('[aria-hidden="true"]'));
+                if (!focusable.length) return;
+                const first = focusable[0], last = focusable[focusable.length - 1];
+                if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+                else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+            });
+
+            /* ── Accordions ───────────────────────────────────────────── */
+            $$('.mip-accordion-btn').forEach(btn => {
+                const panel = $('#' + btn.getAttribute('aria-controls'));
+                if (!panel) return;
+                btn.addEventListener('click', () => {
+                    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+                    $$('.mip-accordion-btn').forEach(other => {
+                        if (other !== btn) {
+                            other.setAttribute('aria-expanded', 'false');
+                            const p = $('#' + other.getAttribute('aria-controls'));
+                            if (p) p.style.maxHeight = null;
+                        }
+                    });
+                    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+                    panel.style.maxHeight = isOpen ? null : panel.scrollHeight + 'px';
+                });
+            });
+
+            window.addEventListener('resize', () => {
+                $$('.mip-accordion-btn[aria-expanded="true"]').forEach(btn => {
+                    const p = $('#' + btn.getAttribute('aria-controls'));
+                    if (p) p.style.maxHeight = p.scrollHeight + 'px';
+                });
+                if (window.innerWidth >= 1024 && drawer.classList.contains('open')) closeDrawer();
+            });
+
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        })();
+    </script>
+
+
+    <style>
+        /* ── Sticky shadow on scroll ───────────────────────────────── */
+        #mip-nav.scrolled {
+            box-shadow: 0 4px 32px rgba(0, 0, 0, 0.45);
+        }
+
+        /* ── Desktop nav links ─────────────────────────────────────── */
+        .mip-nav-link {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            transition: color 0.2s ease;
+            padding: 4px 0;
+        }
+
+        .mip-nav-link:hover,
+        .mip-nav-link:focus-visible {
+            color: #06b6d4;
+        }
+
+        /* Active underline */
+        .mip-nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #06b6d4;
+            border-radius: 2px;
+        }
+
+        /* Dropdown caret */
+        .mip-nav-link .mip-caret {
+            width: 12px;
+            height: 12px;
+            transition: transform 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .mip-dropdown-wrap:hover .mip-caret,
+        .mip-dropdown-wrap:focus-within .mip-caret,
+        .mip-dropdown-wrap[data-open="true"] .mip-caret {
+            transform: rotate(180deg);
+        }
+
+        /* ── Dropdown base ─────────────────────────────────────────── */
+        .mip-dropdown {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            z-index: 200;
+            background: #020617;
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 16px;
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+            pointer-events: none;
+        }
+
+        .mip-dropdown-wrap:hover .mip-dropdown,
+        .mip-dropdown-wrap:focus-within .mip-dropdown,
+        .mip-dropdown-wrap[data-open="true"] .mip-dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+            pointer-events: all;
+        }
+
+        /* ── Mega dropdown (Services) ──────────────────────────────── */
+        .mip-mega {
+            min-width: 720px;
+            padding: 28px 28px 0;
+        }
+
+        .mip-mega-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px 24px;
+        }
+
+        .mip-mega-col-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            color: #06b6d4;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .mip-mega-col-title svg {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+        }
+
+        .mip-mega-item {
+            display: block;
+            padding: 7px 8px;
+            border-radius: 8px;
+            font-size: 11.5px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.72);
+            transition: background 0.15s ease, color 0.15s ease;
+            white-space: nowrap;
+            text-decoration: none;
+            margin-bottom: 2px;
+        }
+
+        .mip-mega-item:hover,
+        .mip-mega-item:focus-visible {
+            background: rgba(6, 182, 212, 0.08);
+            color: #06b6d4;
+        }
+
+        /* Mega bottom CTA bar */
+        .mip-mega-cta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 0;
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .mip-mega-cta-text {
+            font-size: 11px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .mip-mega-cta-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #f97316;
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 7px 16px;
+            border-radius: 100px;
+            transition: background 0.2s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mip-mega-cta-link:hover {
+            background: #fb923c;
+        }
+
+        /* ── Simple dropdown (Industries) ──────────────────────────── */
+        .mip-simple-dropdown {
+            min-width: 220px;
+            padding: 10px;
+        }
+
+        .mip-simple-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.75);
+            transition: background 0.15s ease, color 0.15s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mip-simple-item:hover,
+        .mip-simple-item:focus-visible {
+            background: rgba(6, 182, 212, 0.08);
+            color: #06b6d4;
+        }
+
+        .mip-simple-item svg {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+            color: #475569;
+        }
+
+        .mip-simple-item:hover svg {
+            color: #06b6d4;
+        }
+
+        /* ── Portal ghost button ────────────────────────────────────── */
+        .mip-portal-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 6px 14px;
+            border-radius: 100px;
+            transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mip-portal-btn:hover,
+        .mip-portal-btn:focus-visible {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.4);
+            color: white;
+        }
+
+        .mip-portal-btn svg {
+            width: 13px;
+            height: 13px;
+        }
+
+        /* ── Primary CTA — orange ─────────────── */
+        .mip-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #f97316;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 8px 22px;
+            border-radius: 100px;
+            transition: background 0.2s ease, box-shadow 0.2s ease;
+            text-decoration: none;
+            white-space: nowrap;
+            box-shadow: 0 0 20px rgba(249, 115, 22, 0.25);
+        }
+
+        .mip-cta-btn:hover,
+        .mip-cta-btn:focus-visible {
+            background: #fb923c;
+            box-shadow: 0 0 28px rgba(249, 115, 22, 0.45);
+        }
+
+        /* ── Hamburger ──────────────────────────────────────────────── */
+        .mip-hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            gap: 5px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 8px;
+            transition: background 0.2s ease;
+        }
+
+        .mip-hamburger:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .mip-hamburger .bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: white;
+            border-radius: 2px;
+            transition: transform 0.25s ease, opacity 0.2s ease, width 0.2s ease;
+            transform-origin: center;
+        }
+
+        .mip-hamburger[aria-expanded="true"] .bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .mip-hamburger[aria-expanded="true"] .bar:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        .mip-hamburger[aria-expanded="true"] .bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        @media (max-width: 1023px) {
+            .mip-hamburger {
+                display: flex;
+            }
+
+            .mip-desktop-links {
+                display: none !important;
+            }
+        }
+
+        /* ── Mobile Drawer ──────────────────────────────────────────── */
+        #mip-mobile-drawer {
+            position: fixed;
+            inset: 0;
+            top: 0;
+            z-index: 300;
+            background: #020617;
+            transform: translateX(100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+        }
+
+        #mip-mobile-drawer.open {
+            transform: translateX(0);
+        }
+
+        .mip-drawer-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            flex-shrink: 0;
+        }
+
+        .mip-drawer-body {
+            flex: 1;
+            padding: 16px 20px 24px;
+            overflow-y: auto;
+        }
+
+        .mip-accordion-btn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 16px;
+            border-radius: 12px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: white;
+            transition: background 0.15s ease, color 0.15s ease;
+            text-align: left;
+        }
+
+        .mip-accordion-btn:hover,
+        .mip-accordion-btn:focus-visible {
+            background: rgba(255, 255, 255, 0.04);
+            color: #06b6d4;
+        }
+
+        .mip-accordion-btn .mip-caret {
+            transition: transform 0.25s ease;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .mip-accordion-btn[aria-expanded="true"] .mip-caret {
+            transform: rotate(180deg);
+            color: #06b6d4;
+        }
+
+        .mip-accordion-content {
+            overflow: hidden;
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.3s ease;
+        }
+
+        .mip-accordion-content>* {
+            min-height: 0;
+            overflow: hidden;
+        }
+
+        .mip-accordion-inner {
+            padding: 4px 8px 12px 16px;
+        }
+
+        .mip-mobile-sub-title {
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #06b6d4;
+            padding: 10px 8px 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .mip-mobile-sub-item {
+            display: block;
+            padding: 9px 8px;
+            border-radius: 8px;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.65);
+            transition: color 0.15s ease, background 0.15s ease;
+            text-decoration: none;
+        }
+
+        .mip-mobile-sub-item:hover,
+        .mip-mobile-sub-item:focus-visible {
+            color: #06b6d4;
+            background: rgba(6, 182, 212, 0.06);
+        }
+
+        .mip-mobile-direct-link {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: white;
+            text-decoration: none;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+
+        .mip-mobile-direct-link:hover,
+        .mip-mobile-direct-link:focus-visible {
+            background: rgba(255, 255, 255, 0.04);
+            color: #06b6d4;
+        }
+
+        .mip-drawer-footer {
+            padding: 16px 20px 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .mip-mobile-portal-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        }
+
+        .mip-mobile-portal-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.35);
+            color: white;
+        }
+
+        .mip-mobile-cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #f97316;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            padding: 16px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: background 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 0 24px rgba(249, 115, 22, 0.25);
+        }
+
+        .mip-mobile-cta-btn:hover {
+            background: #fb923c;
+            box-shadow: 0 0 32px rgba(249, 115, 22, 0.4);
+        }
+
+        #mip-drawer-backdrop {
+            position: fixed;
+            inset: 0;
+            z-index: 299;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        #mip-drawer-backdrop.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        body.mip-drawer-open {
+            overflow: hidden;
+        }
+
+        .mip-dropdown-wrap {
+            position: relative;
+        }
+
+        /* Industries dropdown — right-edge clamped to avoid viewport overflow */
+        #mip-industries-dropdown {
+            left: auto;
+            right: 0;
+            transform: translateY(-8px);
+        }
+
+        .mip-dropdown-wrap:hover #mip-industries-dropdown,
+        .mip-dropdown-wrap:focus-within #mip-industries-dropdown,
+        .mip-dropdown-wrap[data-open="true"] #mip-industries-dropdown {
+            transform: translateY(0);
+        }
+
+        /* ── NAV LAYOUT: two intentional groups ────────────────────── */
+        .mip-nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        /* Left cluster: text nav links — wide breathing room */
+        .mip-nav-links-group {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+        }
+
+        /* Right cluster: Portal + CTA — tight as a unit */
+        .mip-nav-actions-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        /* Thin vertical rule between the two groups */
+        .mip-nav-divider {
+            width: 1px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            margin: 0 8px;
+        }
+
+        /* Demo page */
+        .mip-demo-body {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        /* Divider line in mobile drawer */
+        .mip-drawer-divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.05);
+            margin: 8px 0;
+        }
+    </style>
+
+    <a href="#main-content"
+        class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-cyan-500 focus:text-slate-950 focus:rounded-lg focus:font-bold">Skip
+        to main content</a>
+
+    <div id="mip-drawer-backdrop" aria-hidden="true"></div>
+
+    <div id="mip-mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+
+        <div class="mip-drawer-header">
+            <a href="/index.html" class="flex items-center gap-3" aria-label="Next MIP Home">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="#06b6d4" stroke-width="2" />
+                    <circle cx="12" cy="12" r="2" fill="#06b6d4" />
+                </svg>
+                <span class="text-lg font-black uppercase text-white">Next <span class="text-cyan-400">MIP</span></span>
+            </a>
+            <button id="mip-drawer-close"
+                class="p-2 text-slate-400 hover:text-white transition-colors rounded-lg hover:bg-white/5"
+                aria-label="Close navigation menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="mip-drawer-body">
+
+            <!-- Services Accordion -->
+            <div class="mb-1">
+                <button class="mip-accordion-btn" aria-expanded="false" aria-controls="mip-mob-services-panel"
+                    id="mip-mob-services-btn">
+                    Services
+                    <svg class="mip-caret w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </button>
+                <div class="mip-accordion-content" id="mip-mob-services-panel" role="region"
+                    aria-labelledby="mip-mob-services-btn">
+                    <div class="mip-accordion-inner">
+                        <div class="mip-mobile-sub-title">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                            Cybersecurity
+                        </div>
+                        <a href="/services/cybersecurity.html" class="mip-mobile-sub-item">MDR &amp; Threat
+                            Detection</a>
+                        <a href="/services/cybersecurity-managed-soc-siem.html" class="mip-mobile-sub-item">Managed SOC
+                            &amp; SIEM</a>
+                        <a href="/compliance/cmmc-2-0.html" class="mip-mobile-sub-item">HIPAA, CMMC &amp; SOC 2</a>
+                        <a href="/services/cybersecurity.html" class="mip-mobile-sub-item">Zero Trust &amp; MFA</a>
+                        <div class="mip-mobile-sub-title mt-2">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                            </svg>
+                            Cloud Services
+                        </div>
+                        <a href="/services/cloud-services.html" class="mip-mobile-sub-item">Microsoft 365 Management</a>
+                        <a href="/services/cloud-services.html" class="mip-mobile-sub-item">Azure &amp; Cloud
+                            Migration</a>
+                        <a href="/services/cloud-services.html" class="mip-mobile-sub-item">Cloud Backup &amp; DR</a>
+                        <div class="mip-mobile-sub-title mt-2">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <rect x="2" y="3" width="20" height="14" rx="2" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                            </svg>
+                            Managed IT
+                        </div>
+                        <a href="/services/managed-it-services.html" class="mip-mobile-sub-item">Fully Managed IT (MSP
+                            3.0)</a>
+                        <a href="/services/co-managed-it.html" class="mip-mobile-sub-item">Co-Managed IT</a>
+                        <a href="/services/managed-it-services.html" class="mip-mobile-sub-item">Help Desk &amp; Remote
+                            Support</a>
+                        <div class="mip-mobile-sub-title mt-2">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                            AI &amp; Automation
+                        </div>
+                        <a href="/services/predictive-remediation.html" class="mip-mobile-sub-item">AI-Powered IT
+                            Management</a>
+                        <a href="/services/predictive-remediation.html" class="mip-mobile-sub-item">Workflow
+                            Automation</a>
+                        <a href="/services/it-consulting.html" class="mip-mobile-sub-item">vCIO Strategic Roadmap</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Industries Accordion -->
+            <div class="mb-1">
+                <button class="mip-accordion-btn" aria-expanded="false" aria-controls="mip-mob-industries-panel"
+                    id="mip-mob-industries-btn">
+                    Industries
+                    <svg class="mip-caret w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </button>
+                <div class="mip-accordion-content" id="mip-mob-industries-panel" role="region"
+                    aria-labelledby="mip-mob-industries-btn">
+                    <div class="mip-accordion-inner">
+                        <a href="/industries/healthcare-hitrust.html" class="mip-mobile-sub-item">Healthcare</a>
+                        <a href="/industries/financial-services.html" class="mip-mobile-sub-item">Finance &amp;
+                            Legal</a>
+                        <a href="/industries/manufacturing-supply-chain.html"
+                            class="mip-mobile-sub-item">Manufacturing</a>
+                        <a href="/industries/employee-benefit-funds.html" class="mip-mobile-sub-item">Small &amp;
+                            Mid-Sized Business</a>
+                        <a href="/compliance/cmmc-2-0.html" class="mip-mobile-sub-item">Government &amp; Education</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mip-drawer-divider"></div>
+
+            <!-- Direct links -->
+            <a href="/what-is-a-managed-intelligence-provider.html" class="mip-mobile-direct-link">Why NextMIP</a>
+            <a href="/managed-it-vs-managed-intelligence.html" class="mip-mobile-direct-link">MIP Vs MSP</a>
+            <a href="/#insights" class="mip-mobile-direct-link">Insights</a>
+
+        </div><!-- /drawer body -->
+
+        <!-- Drawer Footer CTAs -->
+        <div class="mip-drawer-footer">
+            <!-- TODO: Replace href with actual portal URL before go-live -->
+            <a href="/client-portal.html" target="_blank" rel="noopener noreferrer" class="mip-mobile-portal-btn"
+                aria-label="Client Portal — opens in a new tab">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+                Client Portal
+            </a>
+            <a href="/index.html#contact" class="mip-mobile-cta-btn">
+                Free Assessment
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                </svg>
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        (() => {
+            'use strict';
+
+            const $ = (sel, ctx = document) => ctx.querySelector(sel);
+            const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
+
+            /* ── Sticky shadow ────────────────────────────────────────── */
+            const nav = $('#mip-nav');
+            const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 10);
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+
+            /* ── Active link detection ────────────────────────────────── */
+            const currentPath = window.location.pathname.replace(/\/$/, '') || '/';
+            $$('.mip-nav-link[href]').forEach(link => {
+                const href = link.getAttribute('href').replace(/\/$/, '') || '/';
+                if (href && href !== '#' && currentPath.endsWith(href)) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                }
+            });
+
+            /* ── Desktop Dropdowns ────────────────────────────────────── */
+            $$('.mip-dropdown-wrap').forEach(wrap => {
+                const trigger = $('[aria-haspopup]', wrap);
+                const dropdown = $('[role="menu"]', wrap);
+                if (!trigger || !dropdown) return;
+
+                let closeTimer = null;
+
+                const openDrop = () => {
+                    clearTimeout(closeTimer);
+                    wrap.setAttribute('data-open', 'true');
+                    trigger.setAttribute('aria-expanded', 'true');
+                    dropdown.removeAttribute('aria-hidden');
+                };
+
+                const closeDrop = () => {
+                    closeTimer = setTimeout(() => {
+                        wrap.removeAttribute('data-open');
+                        trigger.setAttribute('aria-expanded', 'false');
+                        dropdown.setAttribute('aria-hidden', 'true');
+                    }, 120);
+                };
+
+                wrap.addEventListener('mouseenter', openDrop);
+                wrap.addEventListener('mouseleave', closeDrop);
+                trigger.addEventListener('click', e => {
+                    e.stopPropagation();
+                    wrap.getAttribute('data-open') === 'true' ? closeDrop() : openDrop();
+                });
+                wrap.addEventListener('focusin', openDrop);
+                wrap.addEventListener('focusout', e => { if (!wrap.contains(e.relatedTarget)) closeDrop(); });
+
+                trigger.addEventListener('keydown', e => {
+                    if (e.key === 'Escape') closeDrop();
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        wrap.getAttribute('data-open') === 'true' ? closeDrop() : openDrop();
+                    }
+                    if (e.key === 'ArrowDown') { e.preventDefault(); openDrop(); $('[role="menuitem"]', dropdown)?.focus(); }
+                });
+
+                dropdown.addEventListener('keydown', e => {
+                    const items = $$('[role="menuitem"]', dropdown);
+                    const idx = items.indexOf(document.activeElement);
+                    if (e.key === 'ArrowDown') { e.preventDefault(); items[Math.min(idx + 1, items.length - 1)]?.focus(); }
+                    if (e.key === 'ArrowUp') { e.preventDefault(); idx > 0 ? items[idx - 1]?.focus() : trigger.focus(); }
+                    if (e.key === 'Escape') { closeDrop(); trigger.focus(); }
+                    if (e.key === 'Tab') closeDrop();
+                });
+            });
+
+            document.addEventListener('click', e => {
+                if (!e.target.closest('.mip-dropdown-wrap')) {
+                    $$('.mip-dropdown-wrap').forEach(wrap => {
+                        wrap.removeAttribute('data-open');
+                        $('[aria-haspopup]', wrap)?.setAttribute('aria-expanded', 'false');
+                    });
+                }
+            });
+
+            /* ── Mobile Drawer ────────────────────────────────────────── */
+            const hamburger = $('#mip-hamburger');
+            const drawer = $('#mip-mobile-drawer');
+            const backdrop = $('#mip-drawer-backdrop');
+            const closeBtn = $('#mip-drawer-close');
+            const focusableSelectors = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+            let lastFocused = null;
+
+            const openDrawer = () => {
+                lastFocused = document.activeElement;
+                drawer.classList.add('open');
+                drawer.setAttribute('aria-hidden', 'false');
+                backdrop.classList.add('visible');
+                hamburger.setAttribute('aria-expanded', 'true');
+                document.body.classList.add('mip-drawer-open');
+                setTimeout(() => $(focusableSelectors, drawer)?.focus(), 50);
+            };
+
+            const closeDrawer = () => {
+                drawer.classList.remove('open');
+                drawer.setAttribute('aria-hidden', 'true');
+                backdrop.classList.remove('visible');
+                hamburger.setAttribute('aria-expanded', 'false');
+                document.body.classList.remove('mip-drawer-open');
+                $$('.mip-accordion-btn[aria-expanded="true"]').forEach(btn => {
+                    btn.setAttribute('aria-expanded', 'false');
+                    const p = $('#' + btn.getAttribute('aria-controls'));
+                    if (p) p.style.maxHeight = null;
+                });
+                lastFocused?.focus();
+            };
+
+            hamburger.addEventListener('click', openDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+            backdrop.addEventListener('click', closeDrawer);
+            document.addEventListener('keydown', e => { if (e.key === 'Escape' && drawer.classList.contains('open')) closeDrawer(); });
+
+            /* Focus trap */
+            drawer.addEventListener('keydown', e => {
+                if (e.key !== 'Tab') return;
+                const focusable = $$(focusableSelectors, drawer).filter(el => !el.closest('[aria-hidden="true"]'));
+                if (!focusable.length) return;
+                const first = focusable[0], last = focusable[focusable.length - 1];
+                if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+                else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+            });
+
+            /* ── Accordions ───────────────────────────────────────────── */
+            /* Accordion: grid-rows technique — no scrollHeight read = zero forced reflow = better INP */
+            $$('.mip-accordion-btn').forEach(btn => {
+                const panel = $('#' + btn.getAttribute('aria-controls'));
+                if (!panel) return;
+                /* Wrap inner content so grid-rows animates correctly */
+                if (!panel.querySelector('.mip-accordion-inner-wrap')) {
+                    const inner = panel.querySelector('.mip-accordion-inner');
+                    if (inner) {
+                        const wrap = document.createElement('div');
+                        wrap.className = 'mip-accordion-inner-wrap';
+                        panel.insertBefore(wrap, inner);
+                        wrap.appendChild(inner);
+                    }
+                }
+                panel.style.display = 'grid';
+                panel.style.gridTemplateRows = '0fr';
+                panel.style.transition = 'grid-template-rows 0.3s ease';
+                panel.style.overflow = 'hidden';
+                panel.style.maxHeight = '';
+
+                btn.addEventListener('click', () => {
+                    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+                    $$('.mip-accordion-btn').forEach(other => {
+                        if (other !== btn) {
+                            other.setAttribute('aria-expanded', 'false');
+                            const p = $('#' + other.getAttribute('aria-controls'));
+                            if (p) { p.style.display = 'grid'; p.style.gridTemplateRows = '0fr'; }
+                        }
+                    });
+                    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+                    panel.style.display = 'grid';
+                    panel.style.gridTemplateRows = isOpen ? '0fr' : '1fr';
+                });
+            });
+
+            window.addEventListener('resize', () => {
+                if (window.innerWidth >= 1024 && drawer.classList.contains('open')) closeDrawer();
+            });
+
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        })();
+    </script>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+
+
+
     <button id="scroll-to-top"
-        class="fixed bottom-8 right-8 z-[110] bg-cyan-500 text-slate-950 p-4 rounded-full shadow-2xl opacity-0 invisible transition-all duration-300">
-        <i data-lucide="arrow-up"></i>
+        class="fixed bottom-8 right-8 z-[110] bg-cyan-500 text-slate-950 p-4 rounded-full shadow-2xl opacity-0 invisible transition-all duration-300"
+        aria-label="Scroll to top">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
     </button>
 
-    <main id="main-content">
+    <main id="main-content" tabindex="-1">
+
         <!-- Hero Section -->
         <section id="strategy" class="relative pt-40 pb-24 px-6 bg-grid-pattern">
             <div
@@ -196,26 +2315,30 @@
                     class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-bold uppercase tracking-widest mb-6">
                     <i data-lucide="activity" class="w-4 h-4"></i> Autonomous MSP Evolution
                 </div>
-                <h1 class="text-4xl md:text-7xl font-extrabold tracking-tight mb-8 leading-[1.1] text-white">
-                    IT Infrastructure That <br>
+                <h1 class="text-4xl md:text-7xl font-extrabold mb-8 leading-tight text-white">
+
+                    Eliminate Revenue Leaks <br>
                     <span
                         class="bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-300 to-cyan-400 italic font-black">
-                        Predicts and Remediates.
+                        Caused by IT Latency.
                     </span>
                 </h1>
-                <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-                    The first <span class="text-white font-bold">Managed Intelligence Provider</span> engineered for
-                    zero-downtime environments. We replace manual ticketing with <span
-                        class="text-cyan-400 font-bold">Predictive IT Remediation</span>.
+                <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-3 leading-relaxed font-light">
+                    The first <span class="text-white font-bold">Managed Intelligence Provider (MIP)</span> engineered
+                    for zero-downtime.
+                </p>
+                <p class="text-base md:text-lg text-slate-500 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
+                    We replace slow, human-bottlenecked ticketing with <span class="text-cyan-400 font-bold">Autonomous
+                        Predictive Remediation</span> — so problems are fixed before your team notices them.
                 </p>
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a href="#contact"
+                    <a href="#roi-calculator"
                         class="w-full sm:w-auto px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-xl font-black text-lg transition-all shadow-xl shadow-cyan-500/25 flex items-center justify-center gap-2">
-                        Execute Shadow AI Audit <i data-lucide="chevron-right"></i>
+                        Quantify Your Revenue Risk <i data-lucide="chevron-right"></i>
                     </a>
-                    <a href="NEXT MIP v1.pdf" target="_blank"
+                    <a href="managed-it-vs-managed-intelligence.html"
                         class="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white border border-white/10 rounded-xl font-black text-lg transition-all flex items-center justify-center gap-2">
-                        View MIP v1 <i data-lucide="play-circle"></i>
+                        Compare MIP vs. Legacy MSP <i data-lucide="arrow-right-circle"></i>
                     </a>
                 </div>
 
@@ -223,6 +2346,7 @@
                     <article class="p-8 rounded-2xl bg-slate-900/50 border border-white/5">
                         <header class="flex items-center gap-3 mb-4 text-red-400"><i data-lucide="alert-triangle"></i>
                             <h2 class="font-bold uppercase tracking-widest">Legacy Managed IT</h2>
+
                         </header>
                         <p class="text-slate-400 leading-relaxed italic">Reactive "break-fix" models focused on server
                             uptime. You call when damage
@@ -233,6 +2357,7 @@
                         <header class="flex items-center gap-3 mb-4 text-cyan-400"><i data-lucide="zap"
                                 class="fill-cyan-400"></i>
                             <h2 class="font-bold uppercase tracking-widest">Managed Intelligence Provider</h2>
+
                         </header>
                         <p class="text-slate-400 leading-relaxed font-medium text-white italic italic text-white">
                             Proactive "Business Outcome" models driven by <span class="text-cyan-400 font-bold">Agentic
@@ -244,10 +2369,10 @@
         </section>
 
         <!-- ROI Calculator (LOCKED) -->
-        <section class="py-24 px-6 bg-slate-900 border-y border-white/5">
+        <section id="roi-calculator" class="py-24 px-6 bg-slate-900 border-y border-white/5">
             <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
                 <div class="flex-1">
-                    <h2 class="text-3xl md:text-4xl font-extrabold mb-6 italic tracking-tight text-white">Quantify Your
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-6 italic  text-white">Quantify Your
                         <br />Revenue Risk Exposure.
                     </h2>
                     <div class="space-y-8 mt-10">
@@ -259,8 +2384,10 @@
                                 <span id="headcount-display" class="text-cyan-400 font-bold text-xl font-mono">50</span>
                             </div>
                             <input type="range" id="headcount-slider" min="20" max="500" value="50"
-                                class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer">
+                                class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
+                                aria-label="Adjust employee headcount to see potential savings">
                         </div>
+
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 calculator-container">
                             <article
                                 class="p-6 rounded-xl bg-white/5 border border-white/10 flex flex-col justify-center">
@@ -268,7 +2395,7 @@
                                     class="text-[10px] text-slate-500 block mb-1 uppercase font-bold tracking-widest text-white italic">Annual
                                     Outage Cost (Est.)</span>
                                 <span id="cost-display"
-                                    class="text-3xl font-bold text-red-400 font-mono tracking-tighter">$90,000</span>
+                                    class="text-3xl font-bold text-red-400 font-mono er">$90,000</span>
                             </article>
                             <article
                                 class="p-6 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex flex-col justify-center">
@@ -276,7 +2403,7 @@
                                     class="text-[10px] text-cyan-500/70 block mb-1 uppercase font-bold tracking-widest text-white italic">MIP
                                     Recovery Potential</span>
                                 <span id="savings-display"
-                                    class="text-3xl font-bold text-cyan-400 font-mono tracking-tighter">$81,000</span>
+                                    class="text-3xl font-bold text-cyan-400 font-mono er">$81,000</span>
                             </article>
                         </div>
                     </div>
@@ -293,7 +2420,7 @@
                                 class="text-cyan-400 font-mono font-bold">Continuous</span></li>
                     </ul>
                     <a href="#contact"
-                        class="block text-center w-full mt-8 py-4 bg-white text-slate-950 font-black rounded-xl hover:bg-cyan-400 transition-all uppercase tracking-tighter">Request
+                        class="block text-center w-full mt-8 py-4 bg-white text-slate-950 font-black rounded-xl hover:bg-cyan-400 transition-all uppercase er">Request
                         Full Risk Assessment</a>
                 </div>
             </div>
@@ -307,8 +2434,7 @@
                     <div
                         class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 text-white text-[9px] font-black uppercase mb-6 tracking-widest">
                         Authority & Reliability</div>
-                    <h2
-                        class="text-4xl font-extrabold mb-6 leading-tight tracking-tight italic font-black uppercase text-slate-900">
+                    <h2 class="text-4xl font-extrabold mb-6 leading-tight  italic font-black uppercase text-slate-900">
                         Built by Leaders Who’ve Secured Critical Infrastructure</h2>
                     <ul class="text-slate-600 mb-8 space-y-3 font-medium text-sm italic">
                         <li>• Led by a group of senior Business and Technology leaders</li>
@@ -324,19 +2450,19 @@
                 <div class="flex-1 w-full grid grid-cols-2 gap-4">
                     <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center shadow-sm"><i
                             data-lucide="shield" class="w-8 h-8 mx-auto text-cyan-600 mb-3"></i><span
-                            class="block font-bold uppercase text-xs tracking-tight text-slate-900">Veteran Owned</span>
+                            class="block font-bold uppercase text-xs  text-slate-900">Veteran Owned</span>
                     </div>
                     <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center shadow-sm"><i
                             data-lucide="check-circle" class="w-8 h-8 mx-auto text-cyan-600 mb-3"></i><span
-                            class="block font-bold uppercase text-xs tracking-tight text-slate-900">NIST
+                            class="block font-bold uppercase text-xs  text-slate-900">NIST
                             Compliant</span></div>
                     <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center shadow-sm"><i
                             data-lucide="lock" class="w-8 h-8 mx-auto text-cyan-600 mb-3"></i><span
-                            class="block font-bold uppercase text-xs tracking-tight text-slate-900">AI Advisory</span>
+                            class="block font-bold uppercase text-xs  text-slate-900">AI Advisory</span>
                     </div>
                     <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-center shadow-sm"><i
                             data-lucide="award" class="w-8 h-8 mx-auto text-cyan-600 mb-3"></i><span
-                            class="block font-bold uppercase text-xs tracking-tight text-slate-900">Federal
+                            class="block font-bold uppercase text-xs  text-slate-900">Federal
                             Integrity</span></div>
                 </div>
             </div>
@@ -346,14 +2472,14 @@
         <section id="industries" class="py-24 px-6 bg-slate-950">
             <div class="max-w-7xl mx-auto">
                 <header class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight text-white italic font-black">
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4  text-white italic font-black">
                         Strategic Industry Solutions</h2>
                     <p class="text-slate-400 max-w-2xl mx-auto text-lg font-medium">Domain-specific architectures built
                         for highly regulated environments.</p>
                 </header>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <!-- SLED / Federal -->
-                    <a href="compliance/cmmc-2-0/index.html"
+                    <a href="compliance/cmmc-2-0.html"
                         class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block">
                         <div
                             class="industry-icon w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6 text-cyan-400 transition-transform">
@@ -368,7 +2494,7 @@
                             CMMC • FIPS</div>
                     </a>
                     <!-- Healthcare -->
-                    <a href="industries/healthcare-hitrust/index.html"
+                    <a href="industries/healthcare-hitrust.html"
                         class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block">
                         <div
                             class="industry-icon w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6 text-cyan-400 transition-transform">
@@ -383,7 +2509,7 @@
                     </a>
                     <!-- Legal -->
                     <a href="#contact"
-                        class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block">
+                        class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block text-left">
                         <div
                             class="industry-icon w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6 text-cyan-400 transition-transform">
                             <i data-lucide="scale"></i>
@@ -395,15 +2521,61 @@
                         <div class="text-[10px] font-black text-cyan-500 uppercase tracking-widest">Requirement: ISO
                             27001 • SOC2 • GDPR</div>
                     </a>
+                    <!-- Benefit Funds -->
+                    <a href="industries/employee-benefit-funds.html"
+                        class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block text-left">
+                        <div
+                            class="industry-icon w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6 text-cyan-400 transition-transform">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-white">Benefit Funds (ERISA)</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 italic">Fiduciary Risk Mitigation for
+                            <span class="text-white font-bold">Pension & Health Funds</span>. We align with DOL
+                            Cybersecurity Best Practices to ensure zero-downtime for distributions.
+                        </p>
+                        <div class="text-[10px] font-black text-cyan-500 uppercase tracking-widest">Requirement: ERISA •
+                            EBSA • DOL BEST PRACTICES</div>
+                    </a>
+                    <!-- Financial Services -->
+                    <a href="industries/financial-services.html"
+                        class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block text-left">
+                        <div
+                            class="industry-icon w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6 text-cyan-400 transition-transform">
+                            <i data-lucide="landmark"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-white">Financial Services</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 italic">SEC & FINRA Compliance for <span
+                                class="text-white font-bold">Broker-Dealers & RIAs</span>. Technical Residency
+                            engineered for 2026 oversight mandates and GenAI governance.</p>
+                        <div class="text-[10px] font-black text-cyan-500 uppercase tracking-widest">Requirement: Reg S-P
+                            • FINRA 3110 • RULE 17a-4</div>
+                    </a>
+                    <!-- Manufacturing -->
+                    <a href="industries/manufacturing-supply-chain.html"
+                        class="industry-card p-10 rounded-3xl bg-slate-900 border border-white/5 hover:border-cyan-500/30 transition-all group block text-left">
+                        <div
+                            class="industry-icon w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6 text-cyan-400 transition-transform">
+                            <i data-lucide="factory"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-white">Manufacturing & Logistics</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 italic">FDA & FSMA Compliance for <span
+                                class="text-white font-bold">Regulated Manufacturing</span>. Technical Residency
+                            engineered for zero-downtime supply chain velocity.</p>
+                        <div class="text-[10px] font-black text-cyan-500 uppercase tracking-widest">Requirement: FDA 21
+                            CFR • FSMA • GAMP 5</div>
+                    </a>
                 </div>
             </div>
         </section>
+
+
+
 
         <!-- Maturity Tiers (LOCKED) -->
         <section id="outcomes" class="py-24 px-6 bg-slate-50 text-slate-900">
             <div class="max-w-7xl mx-auto">
                 <header class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight font-black uppercase italic">
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4  font-black uppercase italic">
                         Operational Maturity Tiers</h2>
                     <p class="text-slate-600 max-w-xl mx-auto text-lg leading-relaxed font-medium italic">Strategically
                         aligned for American businesses, transitioning IT from a cost center to a competitive advantage.
@@ -411,16 +2583,16 @@
                 </header>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <article
-                        class="p-8 rounded-3xl border border-slate-200 bg-white shadow-sm hover:shadow-xl transition-all flex flex-col">
+                        class="p-8 rounded-3xl border border-slate-200 bg-white shadow-sm hover:shadow-xl transition-shadow flex flex-col">
                         <span class="text-xs font-black text-slate-400 uppercase tracking-widest">Tier 1</span>
-                        <h3 class="text-2xl font-extrabold mt-2 tracking-tight">Foundation</h3>
+                        <h3 class="text-2xl font-extrabold mt-2 ">Foundation</h3>
                         <p class="text-slate-500 text-sm mt-4 mb-8">Stable systems. Automated patching. No fire drills.
                         </p>
                         <div class="mt-auto">
-                            <p class="text-4xl font-extrabold mb-8 tracking-tight">$50–100 <span
-                                    class="text-sm font-medium text-slate-400 uppercase">/ device</span></p><a
-                                href="#contact"
-                                class="block w-full text-center py-4 rounded-xl border border-slate-300 hover:bg-slate-900 hover:text-white transition-all font-black text-xs uppercase">Initialize
+                            <p class="text-4xl font-extrabold mb-8">$50&ndash;100 <span
+                                    class="text-sm font-medium text-slate-400 uppercase">/ device</span></p>
+                            <a href="#contact"
+                                class="flex items-center justify-center w-full text-center py-4 rounded-xl border border-slate-300 hover:bg-slate-900 hover:text-white transition-shadow font-black text-xs uppercase whitespace-nowrap">Initialize
                                 Ops</a>
                         </div>
                     </article>
@@ -430,30 +2602,29 @@
                             class="absolute top-0 right-10 -translate-y-1/2 px-4 py-1 bg-cyan-500 text-slate-950 text-[10px] font-black uppercase tracking-widest rounded-full">
                             Most Popular</div>
                         <span class="text-xs font-black text-cyan-400 uppercase tracking-widest">Tier 2</span>
-                        <h3
-                            class="text-2xl font-extrabold mt-2 tracking-tight uppercase italic text-white font-black text-white">
+                        <h3 class="text-2xl font-extrabold mt-2  uppercase italic text-white font-black text-white">
                             Resilience</h3>
                         <p class="text-slate-300 text-sm mt-4 mb-8 font-medium italic">Predictive defense. vCISO
                             oversight. NIST-aligned compliance.</p>
                         <div class="mt-auto">
-                            <p class="text-4xl font-extrabold mb-8 tracking-tight">$150–250 <span
-                                    class="text-sm font-medium text-slate-500 uppercase">/ user</span></p><a
-                                href="#contact"
-                                class="block w-full text-center py-5 rounded-xl bg-cyan-500 text-slate-950 font-black text-xs hover:bg-cyan-400 transition-all uppercase tracking-widest font-black">Fast-Track
+                            <p class="text-4xl font-extrabold mb-8">$150–250 <span
+                                    class="text-sm font-medium text-slate-500 uppercase">/ user</span></p>
+                            <a href="#contact"
+                                class="flex items-center justify-center w-full text-center py-5 rounded-xl bg-cyan-500 text-slate-950 font-black text-xs hover:bg-cyan-400 transition-shadow uppercase tracking-widest whitespace-nowrap">Fast-Track
                                 Audit</a>
                         </div>
                     </article>
                     <article
-                        class="p-8 rounded-3xl border border-slate-200 bg-white shadow-sm hover:shadow-xl transition-all flex flex-col">
+                        class="p-8 rounded-3xl border border-slate-200 bg-white shadow-sm hover:shadow-xl transition-shadow flex flex-col">
                         <span class="text-xs font-black text-slate-400 uppercase tracking-widest">Tier 3</span>
-                        <h3 class="text-2xl font-bold mt-2 tracking-tight">Intelligence</h3>
+                        <h3 class="text-2xl font-bold mt-2 ">Intelligence</h3>
                         <p class="text-slate-500 text-sm mt-4 mb-8 font-medium">Autonomous remediation. Managed AI
                             governance.</p>
                         <div class="mt-auto">
-                            <p class="text-4xl font-extrabold mb-8 italic tracking-tight">Custom <span
-                                    class="text-sm font-medium text-slate-400 uppercase">Pricing</span></p><a
-                                href="#contact"
-                                class="block w-full text-center py-4 rounded-xl border border-slate-300 hover:bg-slate-900 hover:text-white transition-all font-black text-xs uppercase">Consult
+                            <p class="text-4xl font-extrabold mb-8 italic">Custom <span
+                                    class="text-sm font-medium text-slate-400 uppercase">Pricing</span></p>
+                            <a href="#contact"
+                                class="flex items-center justify-center w-full text-center py-4 rounded-xl border border-slate-300 hover:bg-slate-900 hover:text-white transition-shadow font-black text-xs uppercase whitespace-nowrap">Consult
                                 Strategist</a>
                         </div>
                     </article>
@@ -461,35 +2632,31 @@
             </div>
         </section>
 
-        <!-- Framework (LOCKED) -->
-        <section id="framework" class="py-24 px-6 bg-slate-950 border-t border-white/5 text-white">
+        <!-- Framework -->
+        <section id="framework" class="py-24 px-6 bg-slate-950 border-t border-white/5 text-white framework-section">
             <div class="max-w-7xl mx-auto">
-                <h2
-                    class="text-3xl md:text-5xl font-extrabold mb-16 text-center italic tracking-tight font-black uppercase">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-16 text-center italic font-black uppercase">
                     The 14-Day Migration Framework</h2>
+                <!-- min-h reserves space before JS/CSS animations paint, preventing CLS -->
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5"><span
-                            class="text-3xl font-black text-white block mb-4 italic">01-02</span>
-                        <h4 class="font-bold mb-2 uppercase text-sm tracking-widest font-black text-white">Shadow Audit
-                        </h4>
-                        <p class="text-sm text-slate-500">Risk & exposure mapping.</p>
+                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5 min-h-[160px] framework-card">
+                        <span class="text-3xl font-black text-white block mb-4 italic" aria-hidden="true">01–02</span>
+                        <h3 class="font-bold mb-2 uppercase text-sm tracking-widest text-white">Shadow Audit</h3>
+                        <p class="text-sm text-slate-500">Risk &amp; exposure mapping.</p>
                     </article>
-                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5"><span
-                            class="text-3xl font-black text-white block mb-4 italic">03-05</span>
-                        <h4 class="font-bold mb-2 uppercase text-sm tracking-widest font-black text-white">Agent Sync
-                        </h4>
-                        <p class="text-sm text-slate-500">Deploy Autonomous agents.</p>
+                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5 min-h-[160px] framework-card">
+                        <span class="text-3xl font-black text-white block mb-4 italic" aria-hidden="true">03–05</span>
+                        <h3 class="font-bold mb-2 uppercase text-sm tracking-widest text-white">Agent Sync</h3>
+                        <p class="text-sm text-slate-500">Deploy autonomous agents.</p>
                     </article>
-                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5"><span
-                            class="text-3xl font-black text-white block mb-4 italic">06-10</span>
-                        <h4 class="font-bold mb-2 uppercase text-sm tracking-widest font-black text-white">Hardening
-                        </h4>
+                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5 min-h-[160px] framework-card">
+                        <span class="text-3xl font-black text-white block mb-4 italic" aria-hidden="true">06–10</span>
+                        <h3 class="font-bold mb-2 uppercase text-sm tracking-widest text-white">Hardening</h3>
                         <p class="text-sm text-slate-500">NIST-aligned protocols.</p>
                     </article>
-                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5"><span
-                            class="text-3xl font-black text-white block mb-4 italic">11-14</span>
-                        <h4 class="font-bold mb-2 uppercase text-sm tracking-widest font-black text-white">Live Portal
-                        </h4>
+                    <article class="p-8 rounded-2xl bg-slate-900 border border-white/5 min-h-[160px] framework-card">
+                        <span class="text-3xl font-black text-white block mb-4 italic" aria-hidden="true">11–14</span>
+                        <h3 class="font-bold mb-2 uppercase text-sm tracking-widest text-white">Live Portal</h3>
                         <p class="text-sm text-slate-500">Executive dashboard handover.</p>
                     </article>
                 </div>
@@ -501,7 +2668,7 @@
             <div class="max-w-7xl mx-auto">
                 <header class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                     <div class="max-w-xl">
-                        <h2 class="text-4xl font-extrabold tracking-tight italic font-black uppercase">Strategic
+                        <h2 class="text-4xl font-extrabold  italic font-black uppercase">Strategic
                             Insights Hub</h2>
                         <p class="text-slate-500 mt-4 font-medium italic">Advanced intelligence on <span
                                 class="text-slate-900 font-bold">Managed AI Governance</span>, Predictive Defense, and
@@ -514,43 +2681,46 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <article
                         class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all group">
-                        <span class="text-[9px] font-black text-cyan-600 uppercase tracking-widest mb-4 block">White
+                        <span class="text-[9px] font-black text-cyan-600 uppercase tracking-widest mb-4 block"
+                            aria-hidden="true">White
                             Paper</span>
-                        <h4 class="text-xl font-bold mb-4 group-hover:text-cyan-600 transition-colors">The Predictive
-                            Remediation Manifesto</h4>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-cyan-600 transition-colors">The Predictive
+                            Remediation Manifesto</h3>
                         <p class="text-slate-500 text-sm mb-6 leading-relaxed">How autonomous agents are replacing the
                             24/7 human NOC to deliver absolute zero-downtime.</p>
                         <a href="https://nextmip.com/resources/predictive-remediation-manifesto.html"
-                            class="flex items-center gap-2 text-xs font-black uppercase tracking-tighter hover:text-cyan-600 transition-colors">Read
-                            Intelligence Report <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                            class="flex items-center gap-2 text-xs font-black uppercase er hover:text-cyan-600 transition-colors">Read
+                            Intelligence Report <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i></a>
                     </article>
 
                     <article
                         class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all group">
-                        <span
-                            class="text-[9px] font-black text-cyan-600 uppercase tracking-widest mb-4 block">Compliance
+                        <span class="text-[9px] font-black text-cyan-600 uppercase tracking-widest mb-4 block"
+                            aria-hidden="true">Compliance
                             Brief</span>
-                        <h4 class="text-xl font-bold mb-4 group-hover:text-cyan-600 transition-colors">CMMC 2.0 Survival
-                            Guide for SMBs</h4>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-cyan-600 transition-colors">CMMC 2.0 Survival
+                            Guide for SMBs</h3>
                         <p class="text-slate-500 text-sm mb-6 leading-relaxed">De-risking the supply chain: A technical
                             deep-dive into NIST 800-171 protocols.</p>
                         <a href="resources/cmmc-2-0-survival-guide.html"
-                            class="flex items-center gap-2 text-xs font-black uppercase tracking-tighter hover:text-cyan-600 transition-colors">Read
-                            Intelligence Report <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                            class="flex items-center gap-2 text-xs font-black uppercase er hover:text-cyan-600 transition-colors">Read
+                            Intelligence Report <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i></a>
                     </article>
 
                     <article
                         class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:shadow-xl transition-all group">
-                        <span class="text-[9px] font-black text-cyan-600 uppercase tracking-widest mb-4 block">AI
+                        <span class="text-[9px] font-black text-cyan-600 uppercase tracking-widest mb-4 block"
+                            aria-hidden="true">AI
                             Strategy</span>
-                        <h4 class="text-xl font-bold mb-4 group-hover:text-cyan-600 transition-colors">Shadow AI: The
-                            Hidden Revenue Leak</h4>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-cyan-600 transition-colors">Shadow AI: The
+                            Hidden Revenue Leak</h3>
                         <p class="text-slate-500 text-sm mb-6 leading-relaxed">Governing unmanaged AI adoption across
                             legal and financial teams to prevent IP loss.</p>
                         <a href="resources/shadow-ai-revenue-leak.html"
-                            class="flex items-center gap-2 text-xs font-black uppercase tracking-tighter hover:text-cyan-600 transition-colors">Read
-                            Intelligence Report <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                            class="flex items-center gap-2 text-xs font-black uppercase er hover:text-cyan-600 transition-colors">Read
+                            Intelligence Report <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i></a>
                     </article>
+
 
 
                 </div>
@@ -562,8 +2732,7 @@
         <!-- Lead Form (LOCKED) -->
         <section id="contact" class="py-24 px-6 bg-slate-950 border-t border-white/5 text-white">
             <div class="max-w-4xl mx-auto text-center mb-12">
-                <h2
-                    class="text-3xl font-extrabold mb-4 tracking-tight uppercase tracking-tighter italic font-black text-white">
+                <h2 class="text-3xl font-extrabold mb-4  uppercase er italic font-black text-white">
                     Initialize Strategic Discovery</h2>
                 <p class="text-slate-400 font-medium italic text-white text-white">Initialize your 14-day audit. No
                     ticket required.</p>
@@ -591,7 +2760,7 @@
                     </div>
                     <div class="md:col-span-2 mt-4"><button type="submit" id="submit-btn"
                             class="w-full py-4 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black rounded-xl shadow-lg uppercase tracking-widest font-black text-slate-950">EXECUTE
-                            SHADOW AUDIT</button></div>
+                            FREE ASSESSMENT</button></div>
                     <div id="form-feedback"
                         class="md:col-span-2 hidden p-4 rounded-lg bg-cyan-500/10 text-cyan-400 text-sm font-bold text-center border border-cyan-500/20">
                         Lead Ingested Successfully. A senior strategist will contact you shortly.</div>
@@ -602,7 +2771,7 @@
         <!-- Comparisons (LOCKED) -->
         <section class="py-24 px-6 bg-slate-50 border-t border-slate-200 text-slate-900">
             <div class="max-w-7xl mx-auto text-center mb-16 font-extrabold">
-                <h2 class="text-4xl font-black tracking-tight italic font-black uppercase text-slate-900">Why Businesses
+                <h2 class="text-4xl font-black  italic font-black uppercase text-slate-900">Why Businesses
                     Outgrow Traditional IT Support</h2>
                 <p class="text-slate-600 mt-4 max-w-2xl mx-auto font-medium text-lg italic leading-relaxed text-center">
                     Reactive models are a liability in high-stakes environments. The shift to MIP is the end of tickets
@@ -614,7 +2783,7 @@
                         <div class="w-12 h-12 rounded-xl bg-red-100 flex items-center justify-center mb-6 text-red-600">
                             <i data-lucide="alert-circle"></i>
                         </div>
-                        <h3 class="text-xl font-black mb-4 tracking-tight text-slate-900">Traditional MSP</h3>
+                        <h3 class="text-xl font-black mb-4  text-slate-900">Traditional MSP</h3>
                         <p class="text-slate-500 leading-relaxed font-medium"><span
                                 class="block font-black text-red-600 mb-2 uppercase text-[10px] tracking-widest italic">Break-Fix
                                 Model</span>You call after damage is done. Downtime is unavoidable.</p>
@@ -625,7 +2794,7 @@
                             class="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center mb-6 text-amber-600">
                             <i data-lucide="clock"></i>
                         </div>
-                        <h3 class="text-xl font-black mb-4 tracking-tight uppercase italic text-slate-900">Modern MSP
+                        <h3 class="text-xl font-black mb-4  uppercase italic text-slate-900">Modern MSP
                         </h3>
                         <p class="text-slate-500 leading-relaxed font-medium"><span
                                 class="block font-black text-amber-600 mb-2 uppercase text-[10px] tracking-widest italic font-black uppercase">Monitoring
@@ -637,7 +2806,7 @@
                             class="w-12 h-12 rounded-xl bg-cyan-500 flex items-center justify-center mb-6 text-slate-950 font-black uppercase text-slate-950">
                             <i data-lucide="zap" class="fill-slate-950 font-black uppercase text-slate-950"></i>
                         </div>
-                        <h3 class="text-xl font-black mb-4 tracking-tight italic font-black uppercase text-white">Next
+                        <h3 class="text-xl font-black mb-4  italic font-black uppercase text-white">Next
                             MIP</h3>
                         <p class="text-slate-400 leading-relaxed font-medium italic text-white text-white"><span
                                 class="block font-bold text-cyan-400 mb-2 uppercase text-[10px] tracking-widest font-black uppercase">Autonomous
@@ -651,8 +2820,7 @@
         <!-- FAQs (Restored Strategic FAQs) -->
         <section class="py-24 px-6 bg-slate-900 border-t border-white/5 text-white">
             <div class="max-w-4xl mx-auto">
-                <h2
-                    class="text-3xl font-extrabold mb-12 text-center italic tracking-tight uppercase tracking-tighter italic font-black text-white">
+                <h2 class="text-3xl font-extrabold mb-12 text-center italic  uppercase er italic font-black text-white">
                     Got Questions?</h2>
                 <div class="space-y-6 text-white text-white">
                     <details class="group p-6 rounded-2xl bg-slate-950 border border-white/5 cursor-pointer">
@@ -706,7 +2874,7 @@
     <!-- New Definition Section for SEO Snippet -->
     <section class="py-24 px-6 bg-slate-50 border-t border-slate-200">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-extrabold mb-6 text-slate-900 uppercase italic tracking-tight font-black">Managed
+            <h2 class="text-3xl font-extrabold mb-6 text-slate-900 uppercase italic  font-black">Managed
                 Intelligence Provider</h2>
             <p class="text-lg text-slate-600 leading-relaxed font-medium">
                 A <span class="font-bold text-slate-900">Managed Intelligence Provider (MIP)</span> is the evolution of
@@ -729,57 +2897,87 @@
                             <circle cx="12" cy="12" r="2" fill="#06b6d4" />
                         </svg>
                     </div>
-                    <div class="flex flex-col"><span
-                            class="text-xl font-black tracking-tighter uppercase leading-none">Next <span
+                    <div class="flex flex-col"><span class="text-xl font-black er uppercase leading-none">Next <span
                                 class="text-cyan-400">MIP</span></span><span
                             class="text-[8px] font-black tracking-[0.2em] uppercase mt-1">Intelligence.
                             Resilience.</span></div>
                 </div>
-                <p class="text-slate-500 text-sm leading-relaxed italic mb-6">Managed Intelligence Provider specializing
+                <p class="text-white text-sm leading-relaxed italic mb-6">Managed Intelligence Provider specializing
                     in
                     autonomous resilience for critical infrastructure.</p>
                 <div class="flex gap-4">
                     <a href="#"
-                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
-                            data-lucide="facebook" class="w-5 h-5"></i></a>
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-white hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" aria-label="Facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg></a>
                     <a href="#"
-                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
-                            data-lucide="linkedin" class="w-5 h-5"></i></a>
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-white hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" aria-label="LinkedIn">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg></a>
                     <a href="#"
-                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
-                            data-lucide="twitter" class="w-5 h-5"></i></a>
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-white hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" aria-label="X / Twitter">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg></a>
                     <a href="#"
-                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><i
-                            data-lucide="youtube" class="w-5 h-5"></i></a>
+                        class="w-10 h-10 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center text-white hover:text-cyan-400 hover:border-cyan-500/30 transition-all"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor" aria-label="YouTube">
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.4 19.54C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#020617" />
+                        </svg></a>
                 </div>
             </div>
 
             <!-- Column 2: Offices -->
             <div>
-                <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">Office Locations</h4>
-                <div class="space-y-6">
+                <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">Locations</h4>
+                <div class="space-y-6 text-white text-sm">
                     <div>
-                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">Palm Beach Office</h5>
-                        <address class="not-italic text-slate-400 text-sm leading-relaxed">
+                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">Palm Beach (HQ)</h5>
+                        <address class="not-italic text-white text-sm leading-relaxed mb-2">
                             4521 PGA BLVD, Suite #506<br>
                             Palm Beach Gardens, FL 33418
                         </address>
+                        <a href="palm-beach.html"
+                            class="text-xs text-white hover:text-cyan-400 transition-colors uppercase font-bold tracking-widest">View
+                            Palm Beach Hub</a>
                     </div>
                     <div>
-                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">Atlanta Office</h5>
-                        <address class="not-italic text-slate-400 text-sm leading-relaxed">
+                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">New York Office</h5>
+                        <p class="not-italic text-white text-sm leading-relaxed">
+                            108 W 39th St, Suite 1006<br>
+                            New York, NY 10018
+                        </p>
+                    </div>
+                    <div>
+                        <h5 class="text-cyan-400 text-xs font-bold uppercase mb-2">Atlanta</h5>
+                        <address class="not-italic text-white text-sm leading-relaxed mb-2">
                             1700 Northside Drive NW<br>
                             Suite A7, PMB 511<br>
                             Atlanta, GA 30318
                         </address>
+                        <a href="atlanta.html"
+                            class="text-xs text-white hover:text-cyan-400 transition-colors uppercase font-bold tracking-widest">View
+                            Atlanta Hub</a>
                     </div>
                 </div>
+
             </div>
 
             <!-- Column 3: Services -->
             <div>
                 <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">AI Services</h4>
-                <ul class="space-y-4 text-xs text-slate-400">
+                <ul class="space-y-4 text-xs text-white">
                     <li class="relative group">
                         <span
                             class="cursor-help hover:text-cyan-400 transition-colors border-b border-dashed border-slate-700 hover:border-cyan-500 pb-1">Cybersecurity
@@ -855,13 +3053,16 @@
             <!-- Column 4: Legal & Map -->
             <div>
                 <h4 class="text-sm font-black text-white uppercase tracking-widest mb-6">Company</h4>
-                <ul class="space-y-3 text-sm text-slate-400 mb-8">
+                <ul class="space-y-3 text-sm text-white mb-8">
+                    <li><a href="/about.html" class="hover:text-cyan-400 transition-colors">About Us</a></li>
                     <li><a href="sitemap.html" class="hover:text-cyan-400 transition-colors">Site Map</a></li>
                     <li><a href="terms.html" class="hover:text-cyan-400 transition-colors">Terms of Use</a></li>
+                    <li><a href="managed-it-vs-managed-intelligence.html"
+                            class="hover:text-cyan-400 transition-colors">Vs MSP</a></li>
                     <li><a href="privacy.html" class="hover:text-cyan-400 transition-colors">Privacy Policy</a></li>
                 </ul>
                 <div class="p-4 rounded-xl bg-slate-900 border border-white/5">
-                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mb-2">Status</p>
+                    <p class="text-[10px] text-white uppercase tracking-widest font-bold mb-2">Status</p>
                     <div class="flex items-center gap-2 text-xs font-bold text-green-400">
                         <span class="relative flex h-2 w-2">
                             <span
@@ -875,7 +3076,7 @@
         </div>
 
         <div
-            class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-widest text-slate-600">
+            class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-widest text-white">
             <div>© 2024 NEXT MIP. PROTECTED ASSETS.</div>
             <div>American Managed IT Services • NIST • CMMC</div>
         </div>
@@ -897,12 +3098,6 @@
         }
         slider.addEventListener('input', updateROI); updateROI();
 
-        const mobileBtn = document.getElementById('mobile-menu-btn');
-        const mobileOverlay = document.getElementById('mobile-overlay');
-        function toggleMenu() { mobileOverlay.classList.toggle('translate-x-full'); document.body.classList.toggle('overflow-hidden'); }
-        mobileBtn.addEventListener('click', toggleMenu);
-        document.getElementById('mobile-close-btn').addEventListener('click', toggleMenu);
-
         const scrollToTopBtn = document.getElementById('scroll-to-top');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 500) { scrollToTopBtn.classList.remove('opacity-0', 'invisible'); scrollToTopBtn.classList.add('opacity-100', 'visible'); }
@@ -919,6 +3114,20 @@
                 body: JSON.stringify(Object.fromEntries(new FormData(leadForm)))
             }).then(response => { if (response.status == 200) { leadForm.reset(); btn.style.display = 'none'; document.getElementById('form-feedback').classList.remove('hidden'); } });
         });
+    </script>
+
+    <!-- Lucide icon fallback: ensures icons render even if onload fires before DOM is ready -->
+    <script>
+        (function () {
+            function tryIcons() { if (typeof lucide !== 'undefined') lucide.createIcons(); }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', tryIcons);
+            } else {
+                tryIcons();
+            }
+            // Also re-run after a short delay to catch any dynamic content
+            setTimeout(tryIcons, 800);
+        })();
     </script>
 </body>
 
